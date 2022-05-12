@@ -1,3 +1,8 @@
+.container {
+  height: var(--page-height);
+  padding: 2rem;
+}
+
 .tagline {
   font-style: italic;
 }

@@ -1,0 +1,12 @@
+.container {
+  height: 100vh;
+  padding: 2rem;
+}
+
+.features-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 75%; */
+  width: 100%;
+}
