@@ -1,5 +1,43 @@
+.main-nav {
+  margin: auto;
+  padding: 0 1rem;
+  width: calc(100% - 4rem);
+  height: var(--nav-height);
+
+  border-bottom: 2px solid var(--dark-header-bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-title {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title h1 {
+  text-align: center;
+  line-height: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-title {
+  font-weight: 1000;
+  /* width: 50%; */
+}
+
 .nav-links {
+  width: 50%;
+
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.nav-link {
+  cursor: pointer;
 }
