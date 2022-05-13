@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
-
+/* Mirza */
+@import url('https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap');
+/* Overpass */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
-  font-size: 18px;
-
+  /* global font size */
+  font-size: 16px;
+  /* layout */
   --page-height: 88vh;
   --nav-height: calc(100vh - var(--page-height));
-
+  /* colors */
+  --prim-color-red: hsl(340, 100%, 40%);
+  /* dark theme */
   --dark-header-bg: hsl(220, 15%, 20%);
   --dark-bg-color: hsl(220, 15%, 15%);
   --light-text-color: hsl(210, 0%, 85%);
@@ -21,7 +27,7 @@ html,
 body {
   background-color: var(--dark-bg-color);
   color: var(--light-text-color);
-  font-family: 'EB Garamond';
+  font-family: 'Overpass';
 }
 
 a {
@@ -31,6 +37,25 @@ a {
 
 li {
   list-style: none;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+  background-color: inherit;
+  color: inherit;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  filter: brightness(1.25);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Mirza';
 }
 
 * {

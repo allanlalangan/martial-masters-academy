@@ -1,15 +1,24 @@
 import Link from 'next/link';
 import Logo from './Logo';
 import styles from './NavBar.module.css';
+import { GiStarShuriken } from 'react-icons/gi';
 
 const NavBar = () => {
   return (
     <nav className={styles['main-nav']}>
       <Link href='/' passHref={true}>
         <div className={styles['main-title']}>
+          <GiStarShuriken className={styles['logo-icon']} />
           <h1>
-            Martial Masters <br />
-            Academy
+            <span className={`${styles['title-line']} ${styles['line-1']}`}>
+              Martial
+            </span>
+            <span className={`${styles['title-line']} ${styles['line-2']}`}>
+              Masters
+            </span>
+            <span className={`${styles['title-line']} ${styles['line-3']}`}>
+              Academy
+            </span>
           </h1>
         </div>
       </Link>
