@@ -1,0 +1,13 @@
+.classes-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.class-card {
+  background-color: var(--dark-header-bg);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-radius: 0 0.5rem 0 0.5rem;
+}

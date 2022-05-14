@@ -1,13 +1,3 @@
-.container {
-  height: 100vh;
-  padding: 2rem;
-}
-.container-layout {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .features-grid {
   display: grid;
   gap: 1rem;
