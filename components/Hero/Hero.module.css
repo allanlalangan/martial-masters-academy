@@ -13,4 +13,9 @@
   border: 2px solid var(--prim-color-red);
   text-transform: uppercase;
   padding: 1rem;
+  transition: all 0.25s ease-out;
+}
+
+.button:hover {
+  filter: brightness(1.35);
 }

@@ -14,7 +14,7 @@
   /* dark theme */
   --dark-header-bg: hsl(220, 15%, 20%);
   --dark-bg-color: hsl(220, 15%, 15%);
-  --light-text-color: hsl(210, 0%, 85%);
+  --light-text-color: hsl(220, 50%, 85%);
 }
 
 * {
@@ -48,8 +48,6 @@ button {
 
 button:hover {
   cursor: pointer;
-  transition: all 0.25s ease-out;
-  filter: brightness(1.25);
 }
 
 h1,

@@ -28,6 +28,7 @@ const NavBar = () => {
         </Link>
         <li className={`${styles['nav-link']}`}>Classes</li>
         <li className={`${styles['nav-link']}`}>Youth Program</li>
+        <li className={`${styles['nav-link']}`}>Schedule</li>
       </ul>
     </nav>
   );

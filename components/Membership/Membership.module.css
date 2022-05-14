@@ -4,24 +4,36 @@
 }
 .container-layout {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .features-grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .feature-card {
   background-color: var(--dark-header-bg);
   margin: 1rem;
   padding: 1rem;
-  height: 100%;
-  width: 75%;
   border-radius: 1rem;
 }
 
 .feature-icon {
   font-size: 3rem;
+}
+
+.classes-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.class-card {
+  background-color: var(--dark-header-bg);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
 }

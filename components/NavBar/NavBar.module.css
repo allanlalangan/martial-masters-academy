@@ -62,4 +62,9 @@
 .nav-link {
   cursor: pointer;
   padding: 0 1rem;
+  transition: all 0.25s ease-out;
+}
+
+.nav-link:hover {
+  filter: brightness(1.35);
 }
