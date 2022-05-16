@@ -2,6 +2,7 @@
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
+  height: 40%;
 }
 
 .class-card {
@@ -10,4 +11,20 @@
   padding: 1rem;
   border-radius: 1rem;
   border-radius: 0 0.5rem 0 0.5rem;
+
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.boxing-card {
+  /* background-image: url('../../assets/mark-adriane-FH6JcaCrYJ0-unsplash.jpg'); */
+}
+.muaythai-card {
+  /* background-image: url('../../assets/xuan-nguyen-tWVCsBJEKrU-unsplash.jpg'); */
+}
+.advanced-card {
+  /* background-image: url('../../assets/logan-weaver-lgnwvr-_X46DTSSRbM-unsplash.jpg'); */
+}
+.sparring-card {
+  /* background-image: url('../../assets/johann-walter-bantz-HG1pkXN7SVA-unsplash.jpg'); */
 }

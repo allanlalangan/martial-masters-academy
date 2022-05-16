@@ -50,12 +50,6 @@ button:hover {
   cursor: pointer;
 }
 
-h1,
-h2,
-h3 {
-  font-family: 'Mirza';
-}
-
 * {
   box-sizing: border-box;
 }
