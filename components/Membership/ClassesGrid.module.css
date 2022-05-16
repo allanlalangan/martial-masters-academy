@@ -1,3 +1,36 @@
+.boxing-card::before {
+  background-image: url('../../assets/mark-adriane-FH6JcaCrYJ0-unsplash.jpg');
+}
+
+.muaythai-card::before {
+  background-image: url('../../assets/xuan-nguyen-tWVCsBJEKrU-unsplash.jpg');
+}
+
+.advanced-card::before {
+  background-image: url('../../assets/logan-weaver-lgnwvr-_X46DTSSRbM-unsplash.jpg');
+}
+
+.sparring-card::before {
+  background-image: url('../../assets/jonathan-tomas-misTB4pmevc-unsplash.jpg');
+}
+
+.class-card::before {
+  border-radius: 0 0.5rem 0 0.5rem;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  filter: grayscale(100%);
+  transition: all 0.25s ease-out;
+}
+.class-card:hover.class-card::before {
+  filter: grayscale(0%);
+}
+
 .classes-grid {
   display: grid;
   gap: 1rem;
@@ -12,19 +45,18 @@
   border-radius: 1rem;
   border-radius: 0 0.5rem 0 0.5rem;
 
-  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  z-index: 1;
 }
 
-.boxing-card {
-  /* background-image: url('../../assets/mark-adriane-FH6JcaCrYJ0-unsplash.jpg'); */
-}
-.muaythai-card {
-  /* background-image: url('../../assets/xuan-nguyen-tWVCsBJEKrU-unsplash.jpg'); */
-}
-.advanced-card {
-  /* background-image: url('../../assets/logan-weaver-lgnwvr-_X46DTSSRbM-unsplash.jpg'); */
-}
-.sparring-card {
-  /* background-image: url('../../assets/johann-walter-bantz-HG1pkXN7SVA-unsplash.jpg'); */
+.class-title {
+  color: var(--prim-color-red);
 }
