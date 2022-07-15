@@ -1,10 +1,10 @@
-import NavBar from './NavBar/NavBar';
-import styles from './Layout.module.css';
+import Header from './Header/Header';
+import styles from './Layout.module.scss';
 
 const Layout = ({ children }) => {
   return (
     <>
-      <NavBar />
+      <Header />
       <main className={styles['page-content']}>{children}</main>
     </>
   );

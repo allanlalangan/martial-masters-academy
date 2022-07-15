@@ -1,0 +1,50 @@
+@use '../util/breakpoints' as breakpoints;
+@use '../abstracts/colors' as colors;
+
+@mixin breakpoint($size) {
+  @media (min-width: map-get(breakpoints.$breakpoints, $size)) {
+    @content;
+  }
+}
+
+@mixin flex($direction: row, $justifyContent: null, $alignItems: null) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+@mixin filled-button(
+  $backgroundColor,
+  $borderRad: null,
+  $paddingY: 1rem,
+  $paddingX: 2rem
+) {
+  color: map-get(colors.$text, 'light');
+  background-color: $backgroundColor;
+  border-radius: $borderRad;
+  padding: $paddingY $paddingX;
+}
+@mixin outlined-button(
+  $width: 1px,
+  $borderColor: map-get(colors.$brand-prim, 'main'),
+  $borderRad: null,
+  $paddingY: 1rem,
+  $paddingX: 2rem
+) {
+  color: map-get(colors.$text, 'light');
+  border: $width solid $borderColor;
+  border-radius: $borderRad;
+  padding: $paddingY $paddingX;
+}
+
+@mixin action-button-text() {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@mixin shadow($offsetX, $offsetY, $blur, $spread, $alpha) {
+  box-shadow: $offsetX $offsetY $blur $spread rgba(0, 0, 0, $alpha);
+}

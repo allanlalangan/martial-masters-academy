@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { GiKatana } from 'react-icons/gi';
-import styles from './Hero.module.css';
+import styles from './Hero.module.scss';
 
 const Hero = () => {
   return (

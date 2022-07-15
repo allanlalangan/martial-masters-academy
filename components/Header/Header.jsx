@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import Logo from './Logo';
-import styles from './NavBar.module.css';
+import styles from './Header.module.scss';
 import { GiStarShuriken } from 'react-icons/gi';
 
-const NavBar = () => {
+const Header = () => {
   return (
-    <nav className={styles['main-nav']}>
+    <header className={styles['header']}>
       <Link href='/' passHref={true}>
         <div className={styles['main-title']}>
           <GiStarShuriken className={styles['logo-icon']} />
@@ -30,7 +30,7 @@ const NavBar = () => {
         <li className={`${styles['nav-link']}`}>Youth Program</li>
         <li className={`${styles['nav-link']}`}>Schedule</li>
       </ul>
-    </nav>
+    </header>
   );
 };
-export default NavBar;
+export default Header;

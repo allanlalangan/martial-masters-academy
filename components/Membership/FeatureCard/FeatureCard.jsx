@@ -1,4 +1,4 @@
-import styles from './FeatureCard.module.css';
+import styles from './FeatureCard.module.scss';
 
 const FeatureCard = () => {
   return (

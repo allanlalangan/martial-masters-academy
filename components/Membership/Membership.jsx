@@ -1,12 +1,9 @@
 import { FaCheckCircle } from 'react-icons/fa';
-import ClassesGrid from './ClassesGrid';
-import styles from './Membership.module.css';
-import FeaturesGrid from './FeaturesGrid';
+import styles from './Membership.module.scss';
 
 const Membership = () => {
   return (
-    <section className={`${styles.container} ${styles['container-layout']}`}>
-      <ClassesGrid />
+    <section className={`${styles.container}`}>
       <article className={styles['features-card']}>
         <div className={styles.features}>
           <h1 className={styles['features_title']}>{`Monthly Membership`}</h1>

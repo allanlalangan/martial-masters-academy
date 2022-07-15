@@ -1,0 +1,8 @@
+// 600px, 900px, 1200px, 1536px
+$breakpoints: (
+  '>=xs': 0em,
+  '>=sm': 37.5em,
+  '>=md': 56.25em,
+  '>=lg': 75em,
+  '>=xl': 96em,
+);

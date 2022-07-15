@@ -1,0 +1,12 @@
+@use '../../scss/abstracts/colors' as colors;
+@use '../../scss/abstracts/mixins' as mixins;
+@use '../../scss/abstracts/variables' as var;
+
+.container {
+  height: calc(100vh - var.$height__header);
+}
+
+.button {
+  @include mixins.action-button-text();
+  @include mixins.outlined-button($borderRad: 0 1rem);
+}

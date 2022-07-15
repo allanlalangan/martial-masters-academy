@@ -1,8 +1,8 @@
-import styles from './ClassesGrid.module.css';
+import styles from './ClassesGrid.module.scss';
 
 const ClassesGrid = () => {
   return (
-    <ul className={styles['classes-grid']}>
+    <ul className={`${styles['classes-grid']}`}>
       <li className={`${styles['class-card']} ${styles['boxing-card']}`}>
         <h2 className={styles['class-title']}>Boxing</h2>
       </li>

@@ -1,23 +1,20 @@
-.main-nav {
-  margin: auto;
-  /* padding: 0 1rem; */
-  width: calc(100% - 2rem);
-  height: var(--nav-height);
+@use '../../scss/abstracts/colors' as colors;
+@use '../../scss/abstracts/mixins' as mixins;
+@use '../../scss/abstracts/variables' as var;
 
-  border-bottom: 2px solid var(--dark-header-bg);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.header {
+  width: 100%;
+  height: var.$height__header;
+
+  border-bottom: 2px solid map-get(colors.$card, 'dark');
+  @include mixins.flex(row, space-between, center);
 
   position: relative;
 }
 
 .main-title {
   cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  @include mixins.flex(column, center, center);
 }
 .logo-icon {
   font-size: 3rem;
@@ -28,10 +25,7 @@
   font-family: 'Mirza';
   text-align: justify;
   text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  @include mixins.flex(column, center, flex-start);
 
   position: absolute;
   left: 3rem;
@@ -53,7 +47,7 @@
   letter-spacing: normal;
 }
 .nav-links {
-  /* font-family: 'Mirza'; */
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -61,7 +55,7 @@
 
 .nav-link {
   cursor: pointer;
-  padding: 0 1rem;
+
   transition: all 0.25s ease-out;
 }
 
