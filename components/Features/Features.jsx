@@ -1,6 +1,6 @@
 import { MdTimer, MdAllInclusive } from 'react-icons/md';
 import { FaAward } from 'react-icons/fa';
-import styles from './FeaturesGrid.module.scss';
+import styles from './Features.module.scss';
 
 const FeaturesGrid = () => {
   return (

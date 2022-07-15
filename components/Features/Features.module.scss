@@ -1,14 +1,15 @@
+@use '../../scss/abstracts/colors' as colors;
+
 .features-grid {
+  padding: 0;
+  margin: 1rem;
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .feature-card {
-  background-color: var(--dark-header-bg);
-  margin: 1rem;
-  padding: 1rem;
-  border-radius: 0 1rem 0 1rem;
+  background-color: map-get(colors.$card, 'dark');
 }
 
 .feature-icon {

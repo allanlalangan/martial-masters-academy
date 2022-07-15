@@ -1,7 +1,7 @@
 @use '../../scss/abstracts/mixins';
 
 .boxing-card::before {
-  background-image: url('../../assets/mark-adriane-FH6JcaCrYJ0-unsplash.jpg');
+  background-image: url('../../assets/logan-weaver-lgnwvr-9D_rUDe7xvA-unsplash.jpg');
 }
 
 .muaythai-card::before {
@@ -34,7 +34,7 @@
 
 .classes-grid {
   padding: 0;
-  margin: 0;
+  margin: 1rem;
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(4, 1fr);

@@ -1,6 +1,6 @@
-import styles from './ClassesGrid.module.scss';
+import styles from './Programs.module.scss';
 
-const ClassesGrid = () => {
+const Programs = () => {
   return (
     <ul className={`${styles['classes-grid']}`}>
       <li className={`${styles['class-card']} ${styles['boxing-card']}`}>
@@ -18,4 +18,4 @@ const ClassesGrid = () => {
     </ul>
   );
 };
-export default ClassesGrid;
+export default Programs;

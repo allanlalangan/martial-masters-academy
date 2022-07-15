@@ -13,23 +13,21 @@
 }
 
 .main-title {
+  height: 100%;
   cursor: pointer;
-  @include mixins.flex(column, center, center);
+  @include mixins.flex(row, center, center);
 }
 .logo-icon {
   font-size: 3rem;
 }
 
 .main-title h1 {
+  height: 100%;
   font-size: 1.5rem;
   font-family: 'Mirza';
-  text-align: justify;
   text-transform: uppercase;
-  @include mixins.flex(column, center, flex-start);
 
-  position: absolute;
-  left: 3rem;
-  top: 1.25rem;
+  @include mixins.flex(column, flex-end, flex-start);
 }
 
 .title-line {
@@ -55,7 +53,7 @@
 
 .nav-link {
   cursor: pointer;
-
+  padding: 0 1rem;
   transition: all 0.25s ease-out;
 }
 

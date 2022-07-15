@@ -22,14 +22,16 @@ const Header = () => {
           </h1>
         </div>
       </Link>
-      <ul className={styles['nav-links']}>
-        <Link href='/instructors' passHref={true}>
-          <li className={`${styles['nav-link']}`}>Instructors</li>
-        </Link>
-        <li className={`${styles['nav-link']}`}>Classes</li>
-        <li className={`${styles['nav-link']}`}>Youth Program</li>
-        <li className={`${styles['nav-link']}`}>Schedule</li>
-      </ul>
+      <nav>
+        <ul className={styles['nav-links']}>
+          <Link href='/instructors' passHref={true}>
+            <li className={`${styles['nav-link']}`}>Instructors</li>
+          </Link>
+          <li className={`${styles['nav-link']}`}>Classes</li>
+          <li className={`${styles['nav-link']}`}>Youth Program</li>
+          <li className={`${styles['nav-link']}`}>Schedule</li>
+        </ul>
+      </nav>
     </header>
   );
 };

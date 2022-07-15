@@ -2,13 +2,8 @@
 @use '../../scss/abstracts/mixins' as mixins;
 
 .container {
+  margin: 0 1rem;
   @include mixins.flex(column, space-between);
-}
-
-.subheading {
-}
-
-.features-grid {
 }
 
 .features-card {
@@ -24,12 +19,6 @@
   width: 70%;
 
   @include mixins.flex(column, space-evenly, flex-start);
-}
-
-.features_title {
-}
-
-.included-list {
 }
 
 .included-item {
@@ -60,16 +49,9 @@
 
 .price-card {
   background-color: map-get(colors.$grey, 'darker');
-  // background-color: hsl(210, 15%, 30%);
 
   width: 30%;
   height: 100%;
-}
-
-.price-heading {
-}
-
-.final-price {
 }
 
 .learn-more {
@@ -78,7 +60,7 @@
 
 .actions {
   display: grid;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 .action-button {
   @include mixins.action-button-text();
