@@ -7,6 +7,16 @@
   }
 }
 
+@mixin grid() {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+@mixin card() {
+  padding: 1rem;
+  background-color: map-get(colors.$card, 'dark');
+}
+
 @mixin flex($direction: row, $justifyContent: null, $alignItems: null) {
   display: flex;
   flex-direction: $direction;

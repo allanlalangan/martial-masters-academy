@@ -1,4 +1,8 @@
+@use '../scss/abstracts/colors' as colors;
+@use '../scss/abstracts/mixins' as mixins;
+@use '../scss/abstracts/variables' as var;
+
 .page-content {
   /* padding: 0 2rem; */
-  // height: var(--page-height);
+  min-height: calc(100vh - var.$height__header);
 }

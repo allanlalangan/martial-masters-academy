@@ -3,6 +3,7 @@
 @use '../../scss/abstracts/variables' as var;
 
 .container {
+  margin-top: 1rem;
   background-color: map-get(colors.$card, 'dark');
   height: 50vh;
 
