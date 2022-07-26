@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section>
+    <section className='h-screen'>
       <figure></figure>
       <h2>Who are we?</h2>
       <article>

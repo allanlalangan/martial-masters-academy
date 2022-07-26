@@ -4,9 +4,9 @@ import { GiStarShuriken } from 'react-icons/gi';
 
 const Header = () => {
   return (
-    <header className='header flex justify-between items-center'>
+    <header className='px-6 h-header border-b border-slate-700 flex justify-between items-center'>
       <Link href='/' passHref={true}>
-        <div className='flex items-center'>
+        <div className='flex items-center hover:brightness-110 cursor-pointer transition '>
           <GiStarShuriken className='text-4xl' />
           <h1 className='flex flex-col uppercase'>
             <span>Martial</span>
@@ -18,11 +18,19 @@ const Header = () => {
       <nav>
         <ul className='flex justify-evenly items-center'>
           <Link href='/instructors' passHref={true}>
-            <li className='px-2'>Instructors</li>
+            <li className='hover:brightness-110 cursor-pointer transition px-2'>
+              Instructors
+            </li>
           </Link>
-          <li className='px-2'>Classes</li>
-          <li className='px-2'>Youth Program</li>
-          <li className='px-2'>Schedule</li>
+          <li className='hover:brightness-110 cursor-pointer transition px-2'>
+            Classes
+          </li>
+          <li className='hover:brightness-110 cursor-pointer transition px-2'>
+            Youth Program
+          </li>
+          <li className='hover:brightness-110 cursor-pointer transition px-2'>
+            Schedule
+          </li>
         </ul>
       </nav>
     </header>
