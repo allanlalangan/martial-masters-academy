@@ -21,6 +21,7 @@ export default function Home() {
         <Programs />
         <Membership />
         <Features />
+        <h2>Lone Warrior Project</h2>
         <KidsProgram />
       </>
     </>
