@@ -1,1 +1,1 @@
-{"version":3,"sources":["../components/Layout.module.scss","Layout.module.css"],"names":[],"mappings":"AAAA;EACE,qBAAA;ACCF","file":"Layout.module.css"}
+{"version":3,"sources":["../scss/abstracts/_variables.scss","../components/Layout/Layout.module.scss","Layout.module.css"],"names":[],"mappings":"AAgBA,8DAAA;ACZA;EACE,qBAAA;EACA,gBAAA;ACFF","file":"Layout.module.css"}

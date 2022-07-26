@@ -1,0 +1,1 @@
+{"version":3,"sources":["../scss/abstracts/_variables.scss","../components/Footer/Footer.module.scss","Footer.module.css"],"names":[],"mappings":"AAgBA,8DAAA;ACZA;EACE,gBAAA;EACA,uCAAA;EACA,YAAA;EAEA,aAAA;EACA,aAAA;EACA,sCAAA;ACHF;;ADMA;EACE,gBAAA;EACA,uCAAA;ACHF;;ADMA;EACE,iBAAA;ACHF","file":"Footer.module.css"}

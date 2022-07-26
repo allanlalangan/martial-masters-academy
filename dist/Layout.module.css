@@ -1,3 +1,5 @@
+/* offset-x | offset-y | blur-radius | spread-radius | color */
 .page-content {
   /* padding: 0 2rem; */
+  min-height: 90vh;
 }/*# sourceMappingURL=Layout.module.css.map */

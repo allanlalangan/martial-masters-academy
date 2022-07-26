@@ -1,0 +1,60 @@
+.boxing-card::before {
+  background-image: url("../../assets/logan-weaver-lgnwvr-9D_rUDe7xvA-unsplash.jpg");
+}
+
+.muaythai-card::before {
+  background-image: url("../../assets/xuan-nguyen-tWVCsBJEKrU-unsplash.jpg");
+}
+
+.advanced-card::before {
+  background-image: url("../../assets/logan-weaver-lgnwvr-_X46DTSSRbM-unsplash.jpg");
+}
+
+.sparring-card::before {
+  background-image: url("../../assets/jonathan-tomas-misTB4pmevc-unsplash.jpg");
+}
+
+.class-card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  filter: grayscale(100%);
+  transition: all 0.25s ease-out;
+}
+
+.class-card:hover.class-card::before {
+  filter: grayscale(0%);
+}
+
+.classes-grid {
+  padding: 0;
+  margin: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  height: 25vh;
+}
+
+.class-card {
+  background-color: var(--dark-header-bg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.class-title {
+  color: var(--prim-color-red);
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+}/*# sourceMappingURL=Programs.module.css.map */

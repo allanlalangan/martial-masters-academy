@@ -1,0 +1,1 @@
+{"version":3,"sources":["../scss/abstracts/_variables.scss","../components/About/About.module.scss","About.module.css","../scss/abstracts/_mixins.scss"],"names":[],"mappings":"AAgBA,8DAAA;ACZA;EACE,aAAA;EACA,sCAAA;ACFF;;ADKA;EACE,YAAA;EACA,uCAAA;ACFF;ACLE;EFKF;IAKI,gBAAA;ECDF;AACF;;ACVE;EFcF;IAEI,iBAAA;ECDF;AACF;;AChBE;EFoBF;IAEI,iBAAA;ECDF;AACF","file":"About.module.css"}

@@ -11,9 +11,10 @@
 }
 
 .main-title {
+  height: 100%;
   cursor: pointer;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -23,17 +24,14 @@
 }
 
 .main-title h1 {
+  height: 100%;
   font-size: 1.5rem;
   font-family: "Mirza";
-  text-align: justify;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-start;
-  position: absolute;
-  left: 3rem;
-  top: 1.25rem;
 }
 
 .title-line {
@@ -55,13 +53,20 @@
 
 .nav-links {
   padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  display: none;
+}
+@media (min-width: 56.25em) {
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 .nav-link {
   cursor: pointer;
+  padding: 0 1rem;
   transition: all 0.25s ease-out;
 }
 

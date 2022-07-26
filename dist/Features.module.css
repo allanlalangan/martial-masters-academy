@@ -1,0 +1,15 @@
+.features-grid {
+  padding: 0;
+  margin: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.feature-card {
+  background-color: hsl(220deg, 15%, 20%);
+}
+
+.feature-icon {
+  font-size: 3rem;
+}/*# sourceMappingURL=Features.module.css.map */

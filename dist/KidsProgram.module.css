@@ -1,0 +1,50 @@
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+.container {
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.image-container {
+  height: 100%;
+  background-color: hsl(210deg, 15%, 30%);
+}
+@media (min-width: 56.25em) {
+  .image-container {
+    grid-column: 7/13;
+  }
+}
+
+@media (min-width: 56.25em) {
+  .heading {
+    grid-column: 1/7;
+  }
+}
+
+@media (min-width: 56.25em) {
+  .subheading {
+    grid-column: 1/7;
+  }
+}
+
+@media (min-width: 56.25em) {
+  .features {
+    grid-column: 1/7;
+  }
+}
+
+.button {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: hsl(220deg, 50%, 85%);
+  border: 1px solid hsl(340deg, 100%, 40%);
+  border-radius: 0 1rem;
+  padding: 1rem 2rem;
+}
+@media (min-width: 56.25em) {
+  .button {
+    grid-column: 7/13;
+  }
+}/*# sourceMappingURL=KidsProgram.module.css.map */
