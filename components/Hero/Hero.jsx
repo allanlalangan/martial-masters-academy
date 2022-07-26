@@ -18,7 +18,7 @@ const Hero = () => {
         </aside>
       </div>
       <Link href='/about' passHref={true}>
-        <button className='hover:brightness-110 shadow-md hover:shadow-lg mx-auto transition uppercase tracking-widest px-8 py-4 border rounded-bl-lg rounded-tr-lg border-red-700'>
+        <button className='hover:brightness-110 shadow-md hover:shadow-lg mx-auto transition uppercase tracking-widest px-8 py-4 border rounded-bl-lg rounded-tr-lg border-primary-700'>
           About Us
         </button>
       </Link>
