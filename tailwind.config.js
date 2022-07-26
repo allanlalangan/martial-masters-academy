@@ -6,6 +6,9 @@ module.exports = {
         header: '13vh',
         main: '87vh',
       },
+      colors: ({ colors }) => ({
+        primary: colors.red,
+      }),
     },
   },
   plugins: [],
