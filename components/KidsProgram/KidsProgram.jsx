@@ -1,11 +1,9 @@
-import styles from './KidsProgram.module.scss';
-
 const KidsProgram = () => {
   return (
-    <section className={`${styles.container}`}>
-      <figure className={styles['image-container']}></figure>
-      <h2 className={styles.heading}>Lone Warrior Project</h2>
-      <article className={styles.subheading}>
+    <section>
+      <figure></figure>
+      <h2>Lone Warrior Project</h2>
+      <article>
         <p>Give your kids the tools to feel empowered, present and confident</p>
         <p>
           Being a kid can be tough! We believe children should feel empowered to
@@ -16,13 +14,13 @@ const KidsProgram = () => {
           release energy and have fun!
         </p>
       </article>
-      <ul className={styles.features}>
+      <ul>
         <li>feature</li>
         <li>feature</li>
         <li>feature</li>
         <li>feature</li>
       </ul>
-      <button className={styles.button}>Explore our kids program</button>
+      <button>Explore our kids program</button>
     </section>
   );
 };

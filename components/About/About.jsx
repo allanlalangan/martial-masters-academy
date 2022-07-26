@@ -1,11 +1,9 @@
-import styles from './About.module.scss';
-
 const About = () => {
   return (
-    <section className={`${styles.container}`}>
-      <figure className={styles['image-container']}></figure>
-      <h2 className={styles.heading}>Who are we?</h2>
-      <article className={styles.intro}>
+    <section>
+      <figure></figure>
+      <h2>Who are we?</h2>
+      <article>
         We train athletes and individuals who are looking to achieve their
         fitness goals, perfect their fighting skills, and protect themselves
         from harm. We offer Martial Arts classes, Bootcamp classes, and Youth
