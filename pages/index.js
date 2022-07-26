@@ -16,6 +16,7 @@ export default function Home() {
       </Head>
       <>
         <Hero />
+        <h2>Who are we?</h2>
         <About />
         <Programs />
         <Membership />
