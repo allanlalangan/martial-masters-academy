@@ -1,15 +1,14 @@
 import Link from 'next/link';
-import Logo from './Logo';
 
 import { GiStarShuriken } from 'react-icons/gi';
 
 const Header = () => {
   return (
-    <header>
+    <header className='header flex justify-between items-center'>
       <Link href='/' passHref={true}>
-        <div>
-          <GiStarShuriken />
-          <h1>
+        <div className='flex items-center'>
+          <GiStarShuriken className='text-4xl' />
+          <h1 className='flex flex-col uppercase'>
             <span>Martial</span>
             <span>Masters</span>
             <span>Academy</span>
@@ -17,13 +16,13 @@ const Header = () => {
         </div>
       </Link>
       <nav>
-        <ul>
+        <ul className='flex justify-evenly items-center'>
           <Link href='/instructors' passHref={true}>
-            <li>Instructors</li>
+            <li className='px-2'>Instructors</li>
           </Link>
-          <li>Classes</li>
-          <li>Youth Program</li>
-          <li>Schedule</li>
+          <li className='px-2'>Classes</li>
+          <li className='px-2'>Youth Program</li>
+          <li className='px-2'>Schedule</li>
         </ul>
       </nav>
     </header>

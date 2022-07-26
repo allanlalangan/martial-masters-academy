@@ -1,12 +1,17 @@
-import Layout from '../components/Layout/Layout';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 import '../styles/index.css';
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <>
+      <Header />
+      <main>
+        <Component {...pageProps} />
+      </main>
+      <Footer />
+    </>
   );
 }
 
-export default MyApp;
+export default App;
