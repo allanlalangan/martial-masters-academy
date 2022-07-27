@@ -4,31 +4,36 @@ import { GiStarShuriken } from 'react-icons/gi';
 
 const Header = () => {
   return (
-    <header className='px-6 h-header border-b border-slate-700 flex justify-between items-center'>
+    <header className='px-8 h-header border-b border-slate-700 flex justify-between items-center'>
       <Link href='/' passHref={true}>
-        <div className='flex items-center hover:brightness-110 cursor-pointer transition '>
-          <GiStarShuriken className='text-4xl' />
-          <h1 className='flex flex-col uppercase'>
-            <span>Martial</span>
-            <span>Masters</span>
-            <span>Academy</span>
+        <div className='flex justify-center items-center hover:brightness-110 cursor-pointer transition '>
+          <h1 className='font-[Mirza] flex flex-col uppercase'>
+            <span className='text-xl tracking-[.275rem] leading-none'>
+              Martial
+            </span>
+            <span className='text-xl tracking-[.25rem] leading-none'>
+              Masters
+            </span>
+            <span className='text-xl tracking-[.215rem] leading-none'>
+              Academy
+            </span>
           </h1>
         </div>
       </Link>
       <nav>
         <ul className='flex justify-evenly items-center'>
           <Link href='/instructors' passHref={true}>
-            <li className='hover:brightness-110 cursor-pointer transition px-2'>
+            <li className='hover:brightness-110 tracking-wide cursor-pointer transition px-4'>
               Instructors
             </li>
           </Link>
-          <li className='hover:brightness-110 cursor-pointer transition px-2'>
+          <li className='hover:brightness-110 tracking-wide cursor-pointer transition px-4'>
             Classes
           </li>
-          <li className='hover:brightness-110 cursor-pointer transition px-2'>
+          <li className='hover:brightness-110 tracking-wide cursor-pointer transition px-4'>
             Youth Program
           </li>
-          <li className='hover:brightness-110 cursor-pointer transition px-2'>
+          <li className='hover:brightness-110 tracking-wide cursor-pointer transition px-4'>
             Schedule
           </li>
         </ul>

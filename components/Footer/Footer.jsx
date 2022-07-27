@@ -4,9 +4,9 @@ import { BsInstagram } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <footer>
-      <div>Map</div>
-      <section>
+    <footer className='h-[50vh] mt-8 bg-slate-800 grid grid-cols-12 '>
+      <div className='col-span-6'>Map</div>
+      <section className='col-span-6'>
         <article>
           <p>5405 SE Alexander St. Unit D</p>
           <p>Hillsboro, OR 97123</p>
