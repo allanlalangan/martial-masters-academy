@@ -19,7 +19,7 @@ const KidsProgram = () => {
         <li>feature</li>
         <li>feature</li>
       </ul>
-      <button className='lg:col-span-6 lg:row-start-5 lg:row-end-7 hover:brightness-110 shadow-md hover:shadow-lg mx-auto transition uppercase tracking-widest px-8 py-4 border rounded-bl-lg rounded-tr-lg border-primary-700'>
+      <button className='bg-inherit lg:col-span-6 lg:row-start-5 lg:row-end-7 hover:brightness-110 shadow-md hover:shadow-lg mx-auto transition uppercase tracking-widest px-8 py-4 border rounded-bl-lg rounded-tr-lg border-primary-700'>
         Explore our kids program
       </button>
     </section>

@@ -16,12 +16,19 @@ export default function Home() {
       </Head>
       <>
         <Hero />
-        <h2>Who are we?</h2>
+        <h2 className='text-3xl text-center p-12 uppercase tracking-widest font-bold'>
+          Who are we?
+        </h2>
         <About />
         <Programs />
+        <h2 className='text-3xl text-center p-12 uppercase tracking-widest font-bold'>
+          Memberships and packages
+        </h2>
         <Membership />
         <Features />
-        <h2>Lone Warrior Project</h2>
+        <h2 className='text-3xl text-center p-12 uppercase tracking-widest font-bold'>
+          Lone Warrior Project
+        </h2>
         <KidsProgram />
       </>
     </>
