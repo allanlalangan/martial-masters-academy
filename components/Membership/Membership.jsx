@@ -39,9 +39,7 @@ const Membership = () => {
         </ul>
       </article>
       <article className='flex flex-col items-center rounded-bl-lg lg:rounded-l-none lg:rounded-tr-lg col-span-12 row-span-3 lg:col-span-4 lg:row-span-6 bg-gray-700 p-12'>
-        <h2 className='p-1 text-xl font-semibold tracking-wide'>
-          Join us for a fixed price of
-        </h2>
+        <h2 className='pb-2 text-xl font-light tracking-wide'>Join us for</h2>
         <h2 className='text-6xl font-extrabold flex items-start tracking-wide'>
           <span className='text-4xl h-full my-auto'>$</span>99.99
           <span className='font-light text-2xl'>USD</span>
