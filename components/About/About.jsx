@@ -4,7 +4,7 @@ const About = () => {
       <figure className='col-span-12 row-span-3 md:col-start-7 md:col-end-13 md:row-start-1 md:row-end-5 flex justify-center items-center'>
         image
       </figure>
-      <article className='p-8 col-span-12 row-span-3 md:col-start-1 md:col-end-7 md:row-start-1 md:row-end-5 flex justify-center items-center'>
+      <article className='p-8 leading-relaxed col-span-12 row-span-3 md:col-start-1 md:col-end-7 md:row-start-1 md:row-end-5 flex justify-center items-center'>
         We train athletes and individuals who are looking to achieve their
         fitness goals, perfect their fighting skills, and protect themselves
         from harm. We offer Martial Arts classes, Bootcamp classes, and Youth
