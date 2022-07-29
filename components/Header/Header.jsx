@@ -8,13 +8,11 @@ const Header = () => {
       <Link href='/' passHref={true}>
         <div className='flex justify-center items-center hover:brightness-110 cursor-pointer transition '>
           <h1 className='font-[Mirza] flex flex-col uppercase'>
-            <span className='text-xl tracking-[.275rem] leading-none'>
+            <span className='text-xl tracking-[.275rem] leading-4'>
               Martial
             </span>
-            <span className='text-xl tracking-[.25rem] leading-none'>
-              Masters
-            </span>
-            <span className='text-xl tracking-[.215rem] leading-none'>
+            <span className='text-xl tracking-[.25rem] leading-4'>Masters</span>
+            <span className='text-xl tracking-[.215rem] leading-4'>
               Academy
             </span>
           </h1>
