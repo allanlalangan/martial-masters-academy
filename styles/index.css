@@ -10,6 +10,13 @@
 @layer base {
   body {
     font-family: 'Overpass', sans-serif;
+    @apply 2xl:text-xl;
     @apply bg-gray-900 text-gray-300;
+  }
+}
+
+@layer components {
+  .action-button {
+    @apply bg-inherit text-sm 2xl:text-lg mt-4 hover:brightness-110 shadow-md hover:shadow-lg mx-auto transition uppercase tracking-widest px-12 py-4 border 2xl:border-2 rounded-bl-lg rounded-br-sm rounded-tr-lg rounded-tl-sm border-primary-700;
   }
 }
