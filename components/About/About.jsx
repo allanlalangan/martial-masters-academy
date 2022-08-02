@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className='grid grid-cols-12 grid-rows-4 lg:h-screen'>
+    <section className='grid grid-cols-12 grid-rows-4 lg:h-screen 2xl:mx-36'>
       <figure className='col-span-12 row-span-3 md:col-start-7 md:col-end-13 md:row-start-1 md:row-end-5 flex justify-center items-center'>
         image
       </figure>

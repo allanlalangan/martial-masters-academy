@@ -1,8 +1,10 @@
 const KidsProgram = () => {
   return (
-    <section className='grid grid-cols-12 grid-rows-6'>
-      <figure className='lg:col-span-6 lg:row-span-4'>image</figure>
-      <article className='lg:col-span-6 lg:row-span-4'>
+    <section className='grid grid-cols-12 2xl:mx-36 p-8'>
+      <figure className='col-span-12 md:col-span-6 2xl:col-span-8'>
+        image
+      </figure>
+      <article className='col-span-12 md:col-span-6 2xl:col-span-4'>
         <p>Give your kids the tools to feel empowered, present and confident</p>
         <p>
           Being a kid can be tough! We believe children should feel empowered to
@@ -13,15 +15,15 @@ const KidsProgram = () => {
           release energy and have fun!
         </p>
       </article>
-      <ul className='lg:col-span-6 lg:row-start-5 lg:row-end-7'>
+      <ul className='col-span-12 sm:col-span-6 md:col-span-12'>
         <li>feature</li>
         <li>feature</li>
         <li>feature</li>
         <li>feature</li>
       </ul>
-      <button className='bg-inherit lg:col-span-6 lg:row-start-5 lg:row-end-7 hover:brightness-110 shadow-md hover:shadow-lg mx-auto transition uppercase tracking-widest px-8 py-4 border rounded-bl-lg rounded-tr-lg border-primary-700'>
-        Explore our kids program
-      </button>
+      <div className='col-span-12 sm:col-span-6 md:col-span-12 flex justify-center'>
+        <button className='action-button'>Explore our kids program</button>
+      </div>
     </section>
   );
 };
