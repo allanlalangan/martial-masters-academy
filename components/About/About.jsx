@@ -3,11 +3,11 @@ import aboutImage from '../../public/assets/marvin-cors-FBnlCT-cGUQ-unsplash.jpe
 
 const About = () => {
   return (
-    <section className='grid grid-cols-12 grid-rows-4 lg:h-screen p-16 2xl:mx-36'>
-      <figure className='p-4 flex align-center col-span-12 row-span-3 md:col-start-7 md:col-end-13 md:row-start-1 md:row-end-5'>
+    <section className='grid grid-cols-12 grid-rows-4 lg:h-screen p-8 lg:p-16 2xl:mx-36'>
+      <figure className='flex align-center col-span-12 row-span-2 md:col-start-7 md:col-end-13 md:row-start-1 md:row-end-5'>
         <Image className='object-cover' src={aboutImage} alt='' />
       </figure>
-      <article className='leading-relaxed col-span-12 row-span-3 md:col-start-1 md:col-end-7 md:row-start-1 md:row-end-5 flex justify-center items-center'>
+      <article className='leading-relaxed col-span-12 row-span-2 md:col-start-1 md:col-end-7 md:row-start-1 md:row-end-5 flex justify-center items-center'>
         We train athletes and individuals who are looking to achieve their
         fitness goals, perfect their fighting skills, and protect themselves
         from harm. We offer Martial Arts classes, Bootcamp classes, and Youth

@@ -20,11 +20,11 @@ export default function Home() {
           Who are we?
         </h2>
         <About />
-        <Programs />
         <h2 className='text-3xl text-center p-12 uppercase tracking-widest font-bold'>
           Memberships and packages
         </h2>
         <Membership />
+        <Programs />
         <Features />
         <h2 className='text-3xl text-center p-12 uppercase tracking-widest font-bold'>
           Lone Warrior Project
