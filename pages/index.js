@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import Hero from '../components/Hero/Hero';
 import About from '../components/About/About';
+import Divider from '../components/Divider/Divider';
 import Membership from '../components/Membership/Membership';
 import Programs from '../components/Programs/Programs';
 import KidsProgram from '../components/KidsProgram/KidsProgram';
@@ -23,6 +24,7 @@ export default function Home() {
         <h2 className='text-3xl text-center p-12 uppercase tracking-widest font-bold'>
           Memberships and packages
         </h2>
+        <Divider />
         <Membership />
         <Programs />
         <Features />
