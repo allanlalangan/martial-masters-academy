@@ -4,7 +4,7 @@ import { GiStarShuriken } from 'react-icons/gi';
 
 const Header = () => {
   return (
-    <header className='px-8 2xl:mx-36 h-header border-b border-slate-700 flex justify-between items-center'>
+    <header className='px-8 2xl:mx-36 h-header flex justify-between items-center'>
       <Link href='/' passHref={true}>
         <div className='flex justify-center items-center hover:brightness-110 cursor-pointer transition '>
           <h1 className='font-[Mirza] flex flex-col uppercase'>
