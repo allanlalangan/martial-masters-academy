@@ -3,7 +3,7 @@ import aboutImage from '../../public/assets/marvin-cors-FBnlCT-cGUQ-unsplash.jpe
 
 const About = () => {
   return (
-    <section className='grid grid-cols-12 grid-rows-4 lg:h-screen p-8 2xl:mx-36'>
+    <section className='grid grid-cols-12 grid-rows-4 lg:h-screen p-16 2xl:mx-36'>
       <figure className='p-4 flex align-center col-span-12 row-span-3 md:col-start-7 md:col-end-13 md:row-start-1 md:row-end-5'>
         <Image className='object-cover' src={aboutImage} alt='' />
       </figure>

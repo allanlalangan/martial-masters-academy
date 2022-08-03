@@ -1,6 +1,6 @@
 const KidsProgram = () => {
   return (
-    <section className='grid grid-cols-12 2xl:mx-36 p-8'>
+    <section className='grid grid-cols-12 2xl:mx-36 p-8 px-16'>
       <figure className='col-span-12 md:col-span-6 2xl:col-span-8'>
         image
       </figure>

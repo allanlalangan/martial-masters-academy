@@ -6,12 +6,12 @@ const Hero = () => {
   return (
     <section className='relative grid grid-cols-12 h-main'>
       <div className='col-span-6 p-16 flex flex-col justify-center items-start z-40 bg-gray-800'>
-        <h2 className='tracking-wider drop-shadow-sm'>Level up</h2>
+        <h2 className='tracking-widest drop-shadow-sm text-3xl'>Level up</h2>
         <h1 className='tracking-wider font-black uppercase text-7xl py-4 drop-shadow-lg'>
           Your training
         </h1>
         <aside className='drop-shadow-sm'>
-          <span className='flex tracking-wide'>
+          <span className='flex tracking-wider'>
             A methodical
             <span className='px-1'>
               <GiKatana />

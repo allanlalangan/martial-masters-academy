@@ -2,12 +2,12 @@ import { FaCheckCircle } from 'react-icons/fa';
 
 const Membership = () => {
   return (
-    <section className='grid grid-cols-12 grid-rows-6 m-8 2xl:mx-36'>
+    <section className='grid grid-cols-12 grid-rows-6 m-8 mx-16 2xl:mx-36'>
       <article className='flex flex-col justify-evenly rounded-tr-lg lg:rounded-r-none lg:rounded-bl-lg col-span-12 row-span-3 lg:col-span-8 lg:row-span-6 bg-gray-800 p-12 shadow-md'>
-        <h3 className='font-bold tracking-wide'>Monthly Membership</h3>
-        <h3 className='tracking-wide'>
+        <h2 className='font-bold tracking-wide text-3xl'>Monthly Membership</h2>
+        <p className='tracking-wide'>
           New members are eligible for 3 free introductory classes!
-        </h3>
+        </p>
         <aside className='flex items-center my-4'>
           <h3 className='w-[55%] tracking-widest uppercase text-center'>{`What's Included`}</h3>
           <div className='w-full h-[1px] bg-primary-700'></div>
