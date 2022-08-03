@@ -18,7 +18,7 @@ const Header = () => {
           </h1>
         </div>
       </Link>
-      <nav>
+      <nav className='hidden md:block'>
         <ul className='flex justify-evenly items-center'>
           <Link href='/instructors' passHref={true}>
             <li className='hover:brightness-110 tracking-wide cursor-pointer transition px-4'>
