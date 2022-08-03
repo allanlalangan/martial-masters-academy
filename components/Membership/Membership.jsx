@@ -3,7 +3,7 @@ import { FaCheckCircle } from 'react-icons/fa';
 const Membership = () => {
   return (
     <section className='grid grid-cols-12 grid-rows-6 m-8 lg:mx-16 2xl:mx-36 border-theme'>
-      <article className='pattern rounded-tl-md rounded-tr-2xl lg:rounded-bl-2xl lg:rounded-tr-none z-0 flex flex-col justify-center col-span-12 row-span-3 lg:col-span-8 lg:row-span-6 p-12 bg-gray-800 shadow-md'>
+      <article className='pattern border-theme lg:rounded-tr-none z-0 flex flex-col justify-center col-span-12 row-span-3 lg:col-span-8 lg:row-span-6 p-12 bg-gray-800 shadow-md'>
         <h2 className='font-bold tracking-wide text-3xl'>Monthly Membership</h2>
         <p className='tracking-wide'>
           New members are eligible for 3 free introductory classes!
@@ -34,7 +34,7 @@ const Membership = () => {
           </li>
         </ul>
       </article>
-      <article className='rounded-bl-2xl rounded-br-md lg:rounded-bl-none lg:rounded-tr-2xl flex flex-col items-center col-span-12 row-span-3 lg:col-span-4 lg:row-span-6 bg-gray-700 p-12'>
+      <article className='border-theme lg:rounded-bl-none flex flex-col items-center col-span-12 row-span-3 lg:col-span-4 lg:row-span-6 bg-gray-700 p-12'>
         <h2 className='pb-2 text-xl font-light tracking-wide'>Join us for</h2>
         <h2 className='text-6xl font-extrabold flex items-start tracking-wide'>
           <span className='text-4xl h-full my-auto'>$</span>99.99

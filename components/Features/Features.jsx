@@ -4,7 +4,7 @@ import { FaAward, FaDumbbell } from 'react-icons/fa';
 const FeaturesGrid = () => {
   return (
     <ul className='pattern bg-gray-800 z-0 grid grid-cols-12 gap-8 p-8 lg:px-16 2xl:mx-36 my-12'>
-      <li className='relative grid grid-cols-12 grid-rows-4 bg-gray-700 h-full col-span-12 md:col-span-6 lg:col-span-3 p-8 rounded-lg rounded-tl-sm rounded-br-sm rounded-tr-lg rounded-bl-lg pt-16 shadow-md'>
+      <li className='relative grid grid-cols-12 grid-rows-4 bg-gray-700 h-full col-span-12 md:col-span-6 lg:col-span-3 p-8 border-theme pt-16 shadow-md'>
         <figure className='absolute bg-gray-900 left-[1rem] top-[-1rem] p-4 w-fit rounded-tl-sm rounded-br-sm rounded-tr-lg rounded-bl-lg shadow-lg'>
           <MdTimer className='text-5xl' />
         </figure>
@@ -17,7 +17,7 @@ const FeaturesGrid = () => {
           full body workout in 60 minutes.
         </p>
       </li>
-      <li className='relative grid grid-cols-12 grid-rows-4 bg-gray-700 h-full col-span-12 md:col-span-6 lg:col-span-3 p-8 rounded-lg rounded-tl-sm rounded-br-sm rounded-tr-lg rounded-bl-lg pt-16 shadow-md'>
+      <li className='relative grid grid-cols-12 grid-rows-4 bg-gray-700 h-full col-span-12 md:col-span-6 lg:col-span-3 p-8 border-theme pt-16 shadow-md'>
         <figure className='absolute bg-gray-900 left-[1rem] top-[-1rem] p-4 w-fit rounded-tl-sm rounded-br-sm rounded-tr-lg rounded-bl-lg shadow-lg'>
           <MdAllInclusive className='text-5xl' />
         </figure>
@@ -30,7 +30,7 @@ const FeaturesGrid = () => {
           box? Come in. Want to do two a days? Hop in! Grow as fast as you want!
         </p>
       </li>
-      <li className='relative grid grid-cols-12 grid-rows-4 bg-gray-700 h-full col-span-12 md:col-span-6 lg:col-span-3 p-8 rounded-lg rounded-tl-sm rounded-br-sm rounded-tr-lg rounded-bl-lg pt-16 shadow-md'>
+      <li className='relative grid grid-cols-12 grid-rows-4 bg-gray-700 h-full col-span-12 md:col-span-6 lg:col-span-3 p-8 border-theme pt-16 shadow-md'>
         <figure className='absolute bg-gray-900 left-[1rem] top-[-1rem] p-4 w-fit rounded-tl-sm rounded-br-sm rounded-tr-lg rounded-bl-lg shadow-lg'>
           <FaAward className='text-5xl' />
         </figure>
@@ -43,7 +43,7 @@ const FeaturesGrid = () => {
           you to class and receive a free private session with our coaches.
         </p>
       </li>
-      <li className='relative grid grid-cols-12 grid-rows-4 bg-gray-700 h-full col-span-12 md:col-span-6 lg:col-span-3 p-8 rounded-lg rounded-tl-sm rounded-br-sm rounded-tr-lg rounded-bl-lg pt-16 shadow-md'>
+      <li className='relative grid grid-cols-12 grid-rows-4 bg-gray-700 h-full col-span-12 md:col-span-6 lg:col-span-3 p-8 border-theme pt-16 shadow-md'>
         <figure className='absolute bg-gray-900 left-[1rem] top-[-1rem] p-4 w-fit rounded-tl-sm rounded-br-sm rounded-tr-lg rounded-bl-lg shadow-lg'>
           <FaDumbbell className='text-5xl' />
         </figure>

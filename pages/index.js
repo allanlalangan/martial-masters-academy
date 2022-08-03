@@ -17,17 +17,19 @@ export default function Home() {
       </Head>
       <>
         <Hero />
+        <Divider />
         <h2 className='text-3xl text-center p-12 uppercase tracking-widest font-bold'>
           Who are we?
         </h2>
         <About />
+        <Divider />
         <h2 className='text-3xl text-center p-12 uppercase tracking-widest font-bold'>
           Memberships and packages
         </h2>
-        <Divider />
         <Membership />
         <Programs />
         <Features />
+        <Divider />
         <h2 className='text-3xl text-center p-12 uppercase tracking-widest font-bold'>
           Lone Warrior Project
         </h2>
