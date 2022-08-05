@@ -21,10 +21,10 @@
 
 @layer components {
   .outlined-button {
-    @apply bg-inherit font-bold text-sm 2xl:text-lg hover:brightness-110 shadow-md hover:shadow-lg mx-auto transition uppercase tracking-widest px-12 py-4 border 2xl:border-2 border-primary-700;
+    @apply bg-inherit font-semibold text-[.75rem] 2xl:text-lg hover:brightness-110 shadow-md hover:shadow-lg mx-auto transition uppercase tracking-[2px] px-12 py-4 border 2xl:border-2 border-primary-700;
   }
   .filled-button {
-    @apply bg-gray-800 font-bold text-sm 2xl:text-lg px-8 py-4 hover:brightness-110 my-2 mx-auto transition tracking-widest border-primary-700;
+    @apply bg-gray-800 font-medium text-[.8rem] 2xl:text-lg px-8 py-4 hover:brightness-110 my-2 mx-auto transition tracking-wider border-primary-700;
   }
   .border-theme {
     /* @apply rounded-tl-sm rounded-br-sm rounded-tr-md rounded-bl-md; */
@@ -32,7 +32,7 @@
   }
 
   .features-card {
-    @apply bg-gray-700 h-full relative grid grid-cols-12 grid-rows-4 col-span-12 md:col-span-6 lg:col-span-3 p-8 border-theme pt-16 shadow-md;
+    @apply bg-gray-700 h-full relative grid grid-cols-12 grid-rows-4 col-span-12 md:col-span-6 lg:col-span-3 p-8 border-theme pt-16 shadow-lg;
   }
 
   .features-icon {
@@ -74,6 +74,36 @@
 
   .highlight::before {
     content: '';
-    @apply absolute z-[-1] h-[60%] w-[85%] bottom-0 bg-primary-700;
+    @apply absolute z-[-1] h-[70%] w-full bottom-0 bg-primary-700;
+  }
+
+  .image-overlay {
+    position: absolute;
+    z-index: -1;
+    background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(0, 0, 0, 0.85) 85%
+    );
+    height: 100%;
+    width: 100%;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    z-index: -1;
+    background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(17, 24, 39, 1) 100%
+    );
+    height: 100%;
+    width: 100%;
+  }
+
+  .image-overlay::before {
+    content: '';
+    position: absolute;
+    z-index: 5;
   }
 }
