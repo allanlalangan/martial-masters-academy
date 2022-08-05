@@ -19,19 +19,19 @@ const Header = () => {
         </div>
       </Link>
       <nav className='hidden md:block'>
-        <ul className='flex justify-evenly items-center'>
+        <ul className='text-sm flex justify-evenly items-center'>
           <Link href='/instructors' passHref={true}>
-            <li className='hover:brightness-110 tracking-wide cursor-pointer transition px-4'>
+            <li className='hover:brightness-110 tracking-wider cursor-pointer transition px-4'>
               Instructors
             </li>
           </Link>
-          <li className='hover:brightness-110 tracking-wide cursor-pointer transition px-4'>
+          <li className='hover:brightness-110 tracking-wider cursor-pointer transition px-4'>
             Classes
           </li>
-          <li className='hover:brightness-110 tracking-wide cursor-pointer transition px-4'>
+          <li className='hover:brightness-110 tracking-wider cursor-pointer transition px-4'>
             Youth Program
           </li>
-          <li className='hover:brightness-110 tracking-wide cursor-pointer transition px-4'>
+          <li className='hover:brightness-110 tracking-wider cursor-pointer transition px-4'>
             Schedule
           </li>
         </ul>

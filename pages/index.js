@@ -18,22 +18,23 @@ export default function Home() {
       <>
         <Hero />
         <Divider />
-        <h2 className='text-3xl text-center p-12 uppercase tracking-widest font-bold'>
+        <h2 className='text-3xl text-center p-12 pb-8 mb-12 mx-8 lg:mx-16 uppercase tracking-widest font-bold border-b-[1.5px] border-gray-700'>
           Who are we?
         </h2>
         <About />
         <Divider />
-        <h2 className='text-3xl text-center p-12 uppercase tracking-widest font-bold'>
+        <h2 className='text-3xl text-center p-12 pb-8 mb-12 mx-8 lg:mx-16 uppercase tracking-widest font-bold border-b-[1.5px] border-gray-700'>
           Memberships and packages
         </h2>
         <Membership />
-        <Programs />
+        {/* <Programs /> */}
         <Features />
         <Divider />
-        <h2 className='text-3xl text-center p-12 uppercase tracking-widest font-bold'>
+        <h2 className='text-3xl text-center p-12 pb-8 mb-12 mx-8 lg:mx-16 uppercase tracking-widest font-bold border-b-[1.5px] border-gray-700'>
           Lone Warrior Project
         </h2>
         <KidsProgram />
+        <Divider />
       </>
     </>
   );

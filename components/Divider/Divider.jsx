@@ -3,7 +3,7 @@ import { CgShapeRhombus } from 'react-icons/cg';
 
 const Divider = () => {
   return (
-    <div className='flex justify-center items-center'>
+    <div className='flex justify-center items-center my-8'>
       {['xl', '3xl', 'xl'].map((iconSize, i) => (
         <CgShapeRhombus
           key={i}
