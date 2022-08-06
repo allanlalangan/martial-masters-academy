@@ -2,12 +2,13 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 import { GiStarShuriken } from 'react-icons/gi';
+import { MdMenu } from 'react-icons/md';
 
 const Header = () => {
   const router = useRouter();
   console.log(router.pathname);
   return (
-    <header className='flex h-header items-center justify-between px-8 2xl:mx-36'>
+    <header className='relative flex h-header items-center justify-between px-8 2xl:mx-36'>
       <Link href='/' passHref={true}>
         <div className='flex cursor-pointer items-center justify-center transition hover:brightness-110 '>
           <h1 className='flex flex-col font-[Mirza] uppercase'>
@@ -21,8 +22,8 @@ const Header = () => {
           </h1>
         </div>
       </Link>
-      <nav className='hidden md:block'>
-        <ul className='flex items-center justify-evenly text-sm'>
+      <nav className='fixed top-0 left-0 z-20 h-screen w-1/2 bg-gray-800 bg-opacity-90 md:static md:h-fit md:bg-transparent'>
+        <ul className='flex h-full flex-col items-center justify-evenly text-sm md:flex-row'>
           <Link href='/instructors' passHref={true}>
             <li
               className={`cursor-pointer px-4 tracking-wider transition hover:brightness-110 ${
@@ -51,6 +52,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <MdMenu className='text-2xl md:hidden' />
     </header>
   );
 };
