@@ -18,19 +18,19 @@ export default function Home() {
       <>
         <Hero />
         <Divider />
-        <h2 className='text-3xl text-center p-12 pb-8 mb-12 mx-8 lg:mx-16 uppercase tracking-widest font-bold border-b-[1.5px] border-gray-700'>
+        <h2 className='mx-8 mb-12 border-b-[1.5px] border-gray-700 p-12 pb-8 text-center text-3xl font-bold uppercase tracking-widest lg:mx-16'>
           Who are we?
         </h2>
         <About />
         <Divider />
-        <h2 className='text-3xl text-center p-12 pb-8 mb-12 mx-8 lg:mx-16 uppercase tracking-widest font-bold border-b-[1.5px] border-gray-700'>
+        <h2 className='mx-8 mb-12 border-b-[1.5px] border-gray-700 p-12 pb-8 text-center text-3xl font-bold uppercase tracking-widest lg:mx-16'>
           Memberships and packages
         </h2>
         <Membership />
         {/* <Programs /> */}
         <Features />
         <Divider />
-        <h2 className='text-3xl text-center p-12 pb-8 mb-12 mx-8 lg:mx-16 uppercase tracking-widest font-bold border-b-[1.5px] border-gray-700'>
+        <h2 className='mx-8 mb-12 border-b-[1.5px] border-gray-700 p-12 pb-8 text-center text-3xl font-bold uppercase tracking-widest lg:mx-16'>
           Lone Warrior Project
         </h2>
         <KidsProgram />

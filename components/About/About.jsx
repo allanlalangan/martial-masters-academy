@@ -3,22 +3,22 @@ import aboutImage from '../../public/assets/marvin-cors-FBnlCT-cGUQ-unsplash.jpe
 
 const About = () => {
   return (
-    <section className='grid grid-cols-12 grid-rows-4 gap-8 lg:h-screen p-8 lg:p-16 2xl:mx-36'>
-      <figure className='relative flex mr-8 mb-8 align-center col-span-12 row-span-2 sm:row-span-3 md:col-start-7 md:col-end-13 md:row-start-1 md:row-end-5'>
+    <section className='grid grid-cols-12 grid-rows-4 gap-8 p-8 lg:h-screen lg:p-16 2xl:mx-36'>
+      <figure className='align-center relative col-span-12 row-span-2 mr-8 mb-8 flex sm:row-span-3 md:col-start-7 md:col-end-13 md:row-start-1 md:row-end-5'>
         <div className='image-overlay'></div>
         <Image
-          className='z-[-2] border-theme object-cover'
+          className='border-theme z-[-2] object-cover'
           src={aboutImage}
           alt=''
         />
-        <figcaption className='p-4 z-1 absolute bottom-[-3rem] left-[-1rem] lg:left-[-3rem] flex flex-col text-2xl font-["Mirza"] uppercase tracking-[1.5px]'>
+        <figcaption className='z-1 absolute bottom-[-3rem] left-[-1rem] flex flex-col p-4 font-["Mirza"] text-2xl uppercase tracking-[1.5px] lg:left-[-3rem]'>
           <span className='highlight'>Be first,</span>
-          <span className='pl-4 highlight'>Be last,</span>
-          <span className='pl-8 highlight'>Be gone.</span>
+          <span className='highlight pl-4'>Be last,</span>
+          <span className='highlight pl-8'>Be gone.</span>
         </figcaption>
-        <div className='absolute z-[-1] left-8 bottom-8 border-theme border-2 border-primary-700 w-full h-full'></div>
+        <div className='border-theme absolute left-8 bottom-8 z-[-1] h-full w-full border-2 border-primary-700'></div>
       </figure>
-      <article className='flex flex-col justify-center items-start md-justify-start h-full leading-[3rem] sm:leading-loose col-span-12 row-span-2 sm:row-span-1 md:col-start-1 md:col-end-7 md:row-start-1 md:row-end-5'>
+      <article className='md-justify-start col-span-12 row-span-2 flex h-full flex-col items-start justify-center leading-[3rem] sm:row-span-1 sm:leading-loose md:col-start-1 md:col-end-7 md:row-start-1 md:row-end-5'>
         We train athletes and individuals who are looking to achieve their
         fitness goals, perfect their fighting skills, and protect themselves
         from harm. We offer Martial Arts classes, Bootcamp classes, and Youth

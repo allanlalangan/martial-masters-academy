@@ -4,18 +4,18 @@ import img from '../../public/assets/jyotirmoy-gupta-ryOMte-FerE-unsplash.jpg';
 
 const KidsProgram = () => {
   return (
-    <section className='grid grid-cols-12 grid-rows-8 gap-8 2xl:mx-36 p-8 lg:px-16 '>
-      <figure className='relative flex ml-8 mb-8 col-span-12 row-span-2 md:col-span-6 md:row-start-1 md:row-end-7 2xl:col-span-8'>
+    <section className='grid-rows-8 grid grid-cols-12 gap-8 p-8 lg:px-16 2xl:mx-36 '>
+      <figure className='relative col-span-12 row-span-2 ml-8 mb-8 flex md:col-span-6 md:row-start-1 md:row-end-7 2xl:col-span-8'>
         <div className='image-overlay'></div>
         <Image className='z-[-2] object-cover' src={img} alt='' />
-        <figcaption className='p-4 z-1 absolute bottom-[-3rem] right-[3rem] flex flex-col text-2xl font-["Mirza"] uppercase tracking-[1.5px]'>
+        <figcaption className='z-1 absolute bottom-[-3rem] right-[3rem] flex flex-col p-4 font-["Mirza"] text-2xl uppercase tracking-[1.5px]'>
           <span className='highlight leading-8'>empower</span>
-          <span className='pl-4 highlight leading-8'>your</span>
-          <span className='pl-8 highlight leading-8'>children</span>
+          <span className='highlight pl-4 leading-8'>your</span>
+          <span className='highlight pl-8 leading-8'>children</span>
         </figcaption>
-        <div className='absolute z-[-1] right-8 bottom-8 border-theme border-2 border-primary-700 w-full h-full'></div>
+        <div className='border-theme absolute right-8 bottom-8 z-[-1] h-full w-full border-2 border-primary-700'></div>
       </figure>
-      <article className='leading-[3rem] sm:leading-loose col-span-12 row-span-2 md:col-start-7 md:col-end-13 md:row-span-3 2xl:col-span-4 flex flex-col justify-start items-start'>
+      <article className='col-span-12 row-span-2 flex flex-col items-start justify-start leading-[3rem] sm:leading-loose md:col-start-7 md:col-end-13 md:row-span-3 2xl:col-span-4'>
         <p className='pb-2'>
           Give your kids the tools to feel empowered, present and confident
         </p>
@@ -28,29 +28,29 @@ const KidsProgram = () => {
           release energy and have fun!
         </p>
       </article>
-      <aside className='col-span-12 md:col-start-7 md:col-end-13 md:row-start-4 md:row-end-5 flex items-center'>
-        <h3 className='w-full sm:w-1/2 md:w-[100%] lg:w-[75%] tracking-[3.5px] uppercase font-semibold text-[.80rem]'>
+      <aside className='col-span-12 flex items-center md:col-start-7 md:col-end-13 md:row-start-4 md:row-end-5'>
+        <h3 className='w-full text-[.80rem] font-semibold uppercase tracking-[3.5px] sm:w-1/2 md:w-[100%] lg:w-[75%]'>
           Students will..
         </h3>
-        <div className='w-full h-[1px] bg-primary-700'></div>
+        <div className='h-[1px] w-full bg-primary-700'></div>
       </aside>
-      <ul className='leading-loose grid grid-cols-12 gap-2 col-span-12 row-span-2 md:col-start-7 md:col-end-13 '>
-        <li className='col-span-12 lg:col-span-6 flex justify-start items-baseline w-full'>
-          <CgShapeRhombus className='text-emerald-400 text-lg' />
+      <ul className='col-span-12 row-span-2 grid grid-cols-12 gap-2 leading-loose md:col-start-7 md:col-end-13 '>
+        <li className='col-span-12 flex w-full items-baseline justify-start lg:col-span-6'>
+          <CgShapeRhombus className='text-lg text-emerald-400' />
           <span className='ml-2'>Learn proper striking technique</span>
         </li>
-        <li className='col-span-12 lg:col-span-6 flex justify-start items-baseline w-full'>
-          <CgShapeRhombus className='text-emerald-400 text-lg' />
+        <li className='col-span-12 flex w-full items-baseline justify-start lg:col-span-6'>
+          <CgShapeRhombus className='text-lg text-emerald-400' />
           <span className='ml-2'>
             Learn defensive grappling and position control
           </span>
         </li>
-        <li className='col-span-12 lg:col-span-6 flex justify-start items-baseline w-full'>
-          <CgShapeRhombus className='text-emerald-400 text-lg' />
+        <li className='col-span-12 flex w-full items-baseline justify-start lg:col-span-6'>
+          <CgShapeRhombus className='text-lg text-emerald-400' />
           <span className='ml-2'>Push and encourage each other</span>
         </li>
-        <li className='col-span-12 lg:col-span-6 flex justify-start items-baseline w-full'>
-          <CgShapeRhombus className='text-emerald-400 text-lg' />
+        <li className='col-span-12 flex w-full items-baseline justify-start lg:col-span-6'>
+          <CgShapeRhombus className='text-lg text-emerald-400' />
           <span className='ml-2'>Move around and have fun!</span>
         </li>
       </ul>

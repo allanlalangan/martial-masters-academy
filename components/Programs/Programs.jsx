@@ -7,27 +7,27 @@ import sparringImg from '../../public/assets/jonathan-tomas-misTB4pmevc-unsplash
 const Programs = () => {
   return (
     <ul className='grid grid-cols-12 grid-rows-4 gap-8 px-8 lg:px-16'>
-      <li className='flex flex-col justify-center items-center col-span-12 row-span-1 md:col-span-6 md:row-span-2 lg:col-span-3 lg:row-span-4'>
+      <li className='col-span-12 row-span-1 flex flex-col items-center justify-center md:col-span-6 md:row-span-2 lg:col-span-3 lg:row-span-4'>
         <h2>Boxing</h2>
-        <figure className='h-[40vh] flex align-center justify-center'>
+        <figure className='align-center flex h-[40vh] justify-center'>
           <Image className='object-cover' src={boxingImg} alt='' />
         </figure>
       </li>
-      <li className='flex flex-col justify-center items-center col-span-12 row-span-1 md:col-span-6 md:row-span-2 lg:col-span-3 lg:row-span-4'>
+      <li className='col-span-12 row-span-1 flex flex-col items-center justify-center md:col-span-6 md:row-span-2 lg:col-span-3 lg:row-span-4'>
         <h2>Muay Thai</h2>
-        <figure className='h-[40vh] flex align-center justify-center'>
+        <figure className='align-center flex h-[40vh] justify-center'>
           <Image className='object-cover' src={muayThaiImg} alt='' />
         </figure>
       </li>
-      <li className='flex flex-col justify-center items-center col-span-12 row-span-1 md:col-span-6 md:row-span-2 lg:col-span-3 lg:row-span-4'>
+      <li className='col-span-12 row-span-1 flex flex-col items-center justify-center md:col-span-6 md:row-span-2 lg:col-span-3 lg:row-span-4'>
         <h2>Advanced Classes</h2>
-        <figure className='h-[40vh] flex align-center justify-center'>
+        <figure className='align-center flex h-[40vh] justify-center'>
           <Image className='object-cover' src={advancedImg} alt='' />
         </figure>
       </li>
-      <li className='flex flex-col justify-center items-center col-span-12 row-span-1 md:col-span-6 md:row-span-2 lg:col-span-3 lg:row-span-4'>
+      <li className='col-span-12 row-span-1 flex flex-col items-center justify-center md:col-span-6 md:row-span-2 lg:col-span-3 lg:row-span-4'>
         <h2>Sparring</h2>
-        <figure className='h-[40vh] flex align-center justify-center'>
+        <figure className='align-center flex h-[40vh] justify-center'>
           <Image className='object-cover' src={sparringImg} alt='' />
         </figure>
       </li>

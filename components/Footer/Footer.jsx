@@ -4,11 +4,11 @@ import { BsInstagram } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <footer className='h-[50vh] mt-8 pattern bg-gray-800 grid grid-cols-12 gap-4 px-16 py-8'>
-      <figure className='flex justify-center items-center col-span-6 row-span-2 border-2 border-theme bg-gray-800 border-gray-700'>
+    <footer className='pattern mt-8 grid h-[50vh] grid-cols-12 gap-4 bg-gray-800 px-16 py-8'>
+      <figure className='border-theme col-span-6 row-span-2 flex items-center justify-center border-2 border-gray-700 bg-gray-800'>
         <span>Map</span>
       </figure>
-      <section className='text-sm leading-relaxed tracking-wider col-span-6 flex flex-col justify-evenly'>
+      <section className='col-span-6 flex flex-col justify-evenly text-sm leading-relaxed tracking-wider'>
         <article>
           {/* <p>5405 SE Alexander St. Unit D</p>
           <p>Hillsboro, OR 97123</p> */}
@@ -30,7 +30,7 @@ const Footer = () => {
           </li>
         </ul>
       </section>
-      <article className='col-start-7 col-end-13 flex flex-col justify-center items-start font-["Mirza"] uppercase text-xl tracking-[.275rem]'>
+      <article className='col-start-7 col-end-13 flex flex-col items-start justify-center font-["Mirza"] text-xl uppercase tracking-[.275rem]'>
         <aside>martial masters academy © 2022</aside>
       </article>
     </footer>

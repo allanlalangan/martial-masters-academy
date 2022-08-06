@@ -5,10 +5,10 @@ import heroImage from '../../public/assets/luis-vidal-FodEsaNZs48-unsplash.jpeg'
 import Pattern from '../Pattern/Pattern';
 const Hero = () => {
   return (
-    <section className='relative grid grid-cols-12 h-main mb-16'>
-      <div className='relative pattern col-span-6 p-8 lg:p-16 flex flex-col justify-center items-start bg-gray-800'>
-        <h2 className='tracking-widest drop-shadow-sm text-3xl'>Elevate</h2>
-        <h1 className='tracking-wider font-black uppercase text-7xl py-4 drop-shadow-lg'>
+    <section className='relative mb-16 grid h-main grid-cols-12'>
+      <div className='pattern relative col-span-6 flex flex-col items-start justify-center bg-gray-800 p-8 lg:p-16'>
+        <h2 className='text-3xl tracking-widest drop-shadow-sm'>Elevate</h2>
+        <h1 className='py-4 text-7xl font-black uppercase tracking-wider drop-shadow-lg'>
           Your training
         </h1>
         <aside className='drop-shadow-sm'>
@@ -21,7 +21,7 @@ const Hero = () => {
           </span>
         </aside>
         <Link href='/about' passHref={true}>
-          <button className='mt-4 outlined-button border-theme'>
+          <button className='outlined-button border-theme mt-4'>
             About Us
           </button>
         </Link>
@@ -29,7 +29,7 @@ const Hero = () => {
           <Pattern className='' />
         </div> */}
       </div>
-      <figure className='object-cover overflow-hidden col-span-6 flex items-center absolute w-full h-full right-0'>
+      <figure className='absolute right-0 col-span-6 flex h-full w-full items-center overflow-hidden object-cover'>
         <Image src={heroImage} alt='gym' />
       </figure>
     </section>
