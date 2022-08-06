@@ -3,7 +3,7 @@ import { FaAward, FaDumbbell } from 'react-icons/fa';
 
 const FeaturesGrid = () => {
   return (
-    <ul className='pattern bg-gray-800 z-0 grid grid-cols-12 gap-8 p-8 lg:px-16 my-12'>
+    <ul className='pattern bg-gray-800 grid grid-cols-12 gap-8 p-8 lg:px-16 my-12'>
       <li className='features-card'>
         <figure className='features-icon border-theme shadow-lg'>
           <MdTimer className='text-5xl' />

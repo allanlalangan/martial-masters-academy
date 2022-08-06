@@ -49,22 +49,25 @@
     filter: grayscale(100%);
   }
 
+  .current-page {
+    @apply border-b border-primary-700;
+  }
+
   .pattern {
-    position: relative;
-    width: 100%;
+    @apply w-full relative z-10;
   }
 
   .pattern::before {
-    content: '';
-    background-image: url('../public/endless-clouds.svg');
-    position: absolute;
+    /* background-image: url('../public/endless-clouds.svg'); */
+    @apply content-[''] bg-[url('../public/endless-clouds.svg')] absolute bg-repeat top-0 right-0 bottom-0 left-0 opacity-[0.125] z-[-1];
+    /* position: absolute;
     background-repeat: repeat;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     opacity: 0.125;
-    z-index: -1;
+    z-index: -1; */
   }
 
   .highlight {

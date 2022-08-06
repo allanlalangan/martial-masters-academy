@@ -1,8 +1,11 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 import { GiStarShuriken } from 'react-icons/gi';
 
 const Header = () => {
+  const router = useRouter();
+  console.log(router.pathname);
   return (
     <header className='px-8 2xl:mx-36 h-header flex justify-between items-center'>
       <Link href='/' passHref={true}>
@@ -21,14 +24,26 @@ const Header = () => {
       <nav className='hidden md:block'>
         <ul className='text-sm flex justify-evenly items-center'>
           <Link href='/instructors' passHref={true}>
-            <li className='hover:brightness-110 tracking-wider cursor-pointer transition px-4'>
+            <li
+              className={`hover:brightness-110 tracking-wider cursor-pointer transition px-4 ${
+                router.pathname === '/instructors' && 'current-page'
+              }`}
+            >
               Instructors
             </li>
           </Link>
-          <li className='hover:brightness-110 tracking-wider cursor-pointer transition px-4'>
+          <li
+            className={
+              'hover:brightness-110 tracking-wider cursor-pointer transition px-4'
+            }
+          >
             Classes
           </li>
-          <li className='hover:brightness-110 tracking-wider cursor-pointer transition px-4'>
+          <li
+            className={
+              'hover:brightness-110 tracking-wider cursor-pointer transition px-4'
+            }
+          >
             Youth Program
           </li>
           <li className='hover:brightness-110 tracking-wider cursor-pointer transition px-4'>

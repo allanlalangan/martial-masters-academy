@@ -4,7 +4,7 @@ import { BsInstagram } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <footer className='h-[50vh] mt-8 pattern z-0 bg-gray-800 grid grid-cols-12 gap-4 px-16 py-8'>
+    <footer className='h-[50vh] mt-8 pattern bg-gray-800 grid grid-cols-12 gap-4 px-16 py-8'>
       <figure className='flex justify-center items-center col-span-6 row-span-2 border-2 border-theme bg-gray-800 border-gray-700'>
         <span>Map</span>
       </figure>
