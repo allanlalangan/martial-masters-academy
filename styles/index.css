@@ -21,10 +21,10 @@
 
 @layer components {
   .outlined-button {
-    @apply bg-inherit font-semibold text-[.75rem] 2xl:text-lg hover:brightness-110 shadow-md hover:shadow-lg mx-auto transition uppercase tracking-[2px] px-12 py-4 border 2xl:border-2 border-primary-700;
+    @apply mx-auto border border-primary-700 bg-inherit px-12 py-4 text-[.75rem] font-semibold uppercase tracking-[2px] shadow-md transition hover:shadow-lg hover:brightness-110 2xl:border-2 2xl:text-lg;
   }
   .filled-button {
-    @apply bg-gray-800 font-medium text-[.8rem] 2xl:text-lg px-8 py-4 hover:brightness-110 my-2 mx-auto transition tracking-wider border-primary-700;
+    @apply my-2 mx-auto border-primary-700 bg-gray-800 px-8 py-4 text-[.8rem] font-medium tracking-wider transition hover:brightness-110 2xl:text-lg;
   }
   .border-theme {
     /* @apply rounded-tl-sm rounded-br-sm rounded-tr-md rounded-bl-md; */
@@ -32,15 +32,15 @@
   }
 
   .features-card {
-    @apply bg-gray-700 h-full relative grid grid-cols-12 grid-rows-4 col-span-12 md:col-span-6 lg:col-span-3 p-8 border-theme pt-16 shadow-lg;
+    @apply border-theme relative col-span-12 grid h-full grid-cols-12 grid-rows-4 bg-gray-700 p-8 pt-16 shadow-lg md:col-span-6 lg:col-span-3;
   }
 
   .features-icon {
-    @apply absolute bg-gray-900 left-[1rem] top-[-1rem] p-4 w-fit;
+    @apply absolute left-[1rem] top-[-1rem] w-fit bg-gray-900 p-4;
   }
 
-  .features-divider {
-    @apply col-span-12 row-span-1 w-full h-[1px] bg-primary-700 my-auto;
+  .divider {
+    @apply col-span-12 row-span-1 my-auto h-[2px] w-full bg-primary-700;
   }
 }
 
@@ -54,12 +54,12 @@
   }
 
   .pattern {
-    @apply w-full relative z-10;
+    @apply relative z-10 w-full;
   }
 
   .pattern::before {
     /* background-image: url('../public/endless-clouds.svg'); */
-    @apply content-[''] bg-[url('../public/endless-clouds.svg')] absolute bg-repeat top-0 right-0 bottom-0 left-0 opacity-[0.125] z-[-1];
+    @apply absolute top-0 right-0 bottom-0 left-0 z-[-1] bg-[url('../public/endless-clouds.svg')] bg-repeat opacity-[0.125] content-[''];
     /* position: absolute;
     background-repeat: repeat;
     top: 0px;
@@ -77,7 +77,7 @@
 
   .highlight::before {
     content: '';
-    @apply absolute z-[-1] h-[70%] w-full bottom-0 bg-primary-700;
+    @apply absolute bottom-0 z-[-1] h-[70%] w-full bg-primary-700;
   }
 
   .image-overlay {
