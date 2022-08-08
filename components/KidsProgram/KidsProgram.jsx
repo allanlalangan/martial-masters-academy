@@ -4,7 +4,7 @@ import img from '../../public/assets/jyotirmoy-gupta-ryOMte-FerE-unsplash.jpg';
 
 const KidsProgram = () => {
   return (
-    <section className='grid-rows-8 grid grid-cols-12 gap-8 p-8 lg:px-16 2xl:mx-36 '>
+    <section className='grid-rows-8 grid grid-cols-12 gap-8 p-8 md:px-16 2xl:mx-36 '>
       <figure className='relative col-span-12 row-span-2 ml-8 mb-8 flex md:col-span-6 md:row-start-1 md:row-end-7 2xl:col-span-8'>
         <div className='image-overlay'></div>
         <Image className='z-[-2] object-cover' src={img} alt='' />
@@ -16,9 +16,9 @@ const KidsProgram = () => {
         <div className='border-theme absolute right-8 bottom-8 z-[-1] h-full w-full border-2 border-primary-700'></div>
       </figure>
       <article className='col-span-12 row-span-2 flex flex-col items-start justify-start leading-[3rem] sm:leading-loose md:col-start-7 md:col-end-13 md:row-span-3 2xl:col-span-4'>
-        <p className='pb-2'>
+        <h3 className='mb-4 text-lg font-semibold'>
           Give your kids the tools to feel empowered, present and confident
-        </p>
+        </h3>
         <p className='pb-2'>
           Being a kid can be tough! We believe children should feel empowered to
           be themselves. For over five years, coaches Fernando and Kelani have
@@ -32,24 +32,24 @@ const KidsProgram = () => {
         <h3 className='w-full text-[.80rem] font-semibold uppercase tracking-[3.5px] sm:w-1/2 md:w-[100%] lg:w-[75%]'>
           Students will..
         </h3>
-        <div className='h-[1px] w-full bg-primary-700'></div>
+        <div className='divider'></div>
       </aside>
       <ul className='col-span-12 row-span-2 grid grid-cols-12 gap-2 leading-loose md:col-start-7 md:col-end-13 '>
-        <li className='col-span-12 flex w-full items-baseline justify-start lg:col-span-6'>
+        <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
           <CgShapeRhombus className='text-lg text-emerald-400' />
           <span className='ml-2'>Learn proper striking technique</span>
         </li>
-        <li className='col-span-12 flex w-full items-baseline justify-start lg:col-span-6'>
+        <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
           <CgShapeRhombus className='text-lg text-emerald-400' />
           <span className='ml-2'>
             Learn defensive grappling and position control
           </span>
         </li>
-        <li className='col-span-12 flex w-full items-baseline justify-start lg:col-span-6'>
+        <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
           <CgShapeRhombus className='text-lg text-emerald-400' />
           <span className='ml-2'>Push and encourage each other</span>
         </li>
-        <li className='col-span-12 flex w-full items-baseline justify-start lg:col-span-6'>
+        <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
           <CgShapeRhombus className='text-lg text-emerald-400' />
           <span className='ml-2'>Move around and have fun!</span>
         </li>

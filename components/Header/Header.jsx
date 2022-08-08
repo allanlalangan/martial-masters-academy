@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { FaCalendarAlt } from 'react-icons/fa';
 
 import { GiStarShuriken } from 'react-icons/gi';
 import { MdMenu } from 'react-icons/md';
@@ -22,7 +23,7 @@ const Header = () => {
           </h1>
         </div>
       </Link>
-      <nav className='fixed top-0 left-0 z-20 h-screen w-1/2 bg-gray-800 bg-opacity-90 md:static md:h-fit md:bg-transparent'>
+      <nav className='fixed top-0 left-[-50%] z-20 h-screen overflow-hidden bg-gray-800 bg-opacity-90 md:static md:h-fit md:bg-transparent'>
         <ul className='flex h-full flex-col items-center justify-evenly text-sm md:flex-row'>
           <Link href='/instructors' passHref={true}>
             <li
@@ -47,8 +48,9 @@ const Header = () => {
           >
             Youth Program
           </li>
-          <li className='cursor-pointer px-4 tracking-wider transition hover:brightness-110'>
-            Schedule
+          <li className='flex cursor-pointer items-center px-4 tracking-wider transition hover:brightness-110'>
+            <span>Class Schedule</span>
+            <FaCalendarAlt className='text-xltext-emerald-400 ml-2 text-emerald-400' />
           </li>
         </ul>
       </nav>
