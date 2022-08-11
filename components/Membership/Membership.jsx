@@ -11,10 +11,10 @@ const Membership = () => {
           sessions and packages. Contact a coach to get started!
         </p>
         <aside className='my-4 flex items-center'>
-          <h3 className='w-[55%] text-[.80rem] font-semibold uppercase tracking-[3.5px]'>
+          <h3 className='w-2/3 text-[.80rem] font-semibold uppercase tracking-[3.5px]'>
             What&apos;s included
           </h3>
-          <div className='divider'></div>
+          <div className='divider w-full'></div>
         </aside>
         <ul className='grid grid-cols-12 gap-2'>
           <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
@@ -36,20 +36,20 @@ const Membership = () => {
           </li>
         </ul>
       </article>
-      <article className='z-3 border-theme col-span-12 row-span-2 flex flex-col items-center bg-gray-700 p-12 sm:row-span-3 lg:col-span-4 lg:row-span-6 lg:rounded-bl-none'>
+      <article className='z-3 border-theme col-span-12 row-span-2 flex flex-col items-center justify-center bg-gray-700 p-12 sm:row-span-3 lg:col-span-4 lg:row-span-6 lg:rounded-bl-none'>
         <spann className='pb-2 text-xl font-light tracking-wide'>
           Join us for
         </spann>
-        <h3 className='flex items-start text-6xl font-extrabold tracking-wide'>
-          <span className='my-auto h-full text-4xl'>$</span>99.99
-          <span className='text-2xl font-light'>USD</span>
+        <h3 className='flex items-start text-5xl font-extrabold tracking-wide sm:text-8xl lg:text-5xl'>
+          <span className='my-auto h-full text-3xl'>$</span>99.99
+          <span className='text-xl font-light'>USD</span>
         </h3>
         <div className='flex w-full flex-col items-center'>
           <span className='p-2 underline'>Learn more</span>
-          <button className='filled-button border-theme w-[75%]'>
+          <button className='filled-button border-theme w-full sm:w-1/2 lg:w-full'>
             Contact a Coach
           </button>
-          <button className='filled-button border-theme w-[75%]'>
+          <button className='filled-button border-theme w-full sm:w-1/2 lg:w-full'>
             Visit Us
           </button>
         </div>

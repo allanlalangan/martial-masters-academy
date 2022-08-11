@@ -5,7 +5,7 @@ import heroImage from '../../public/assets/luis-vidal-FodEsaNZs48-unsplash.jpeg'
 import Pattern from '../Pattern/Pattern';
 const Hero = () => {
   return (
-    <section className='relative mb-16 grid h-main grid-cols-12'>
+    <section className='relative mt-[13vh] mb-16 grid h-main grid-cols-12'>
       <div className='pattern relative col-span-12 flex flex-col items-center justify-center bg-gray-800 p-8 md:col-span-6 md:items-start md:p-16'>
         <span className='text-3xl tracking-widest drop-shadow-sm'>Elevate</span>
         <span className='py-4 text-center text-5xl font-black uppercase tracking-wider drop-shadow-lg md:text-justify md:text-7xl'>

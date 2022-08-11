@@ -12,7 +12,7 @@ const FeaturesGrid = () => {
           Full workout in 60 minutes
         </h3>
         <div className='divider'></div>
-        <p className='col-span-12 row-span-2 font-light'>
+        <p className='col-span-12 row-span-2'>
           From boxing to kickboxing, we mix cardio and resistance training for a
           full body workout in 60 minutes.
         </p>
@@ -25,7 +25,7 @@ const FeaturesGrid = () => {
           Unlimited Classes
         </h3>
         <div className='divider'></div>
-        <p className='col-span-12 row-span-2 font-light'>
+        <p className='col-span-12 row-span-2'>
           You can take any and every class we offer throughout the week. Want to
           box? Come in. Want to do two a days? Hop in! Grow as fast as you want!
         </p>
@@ -38,7 +38,7 @@ const FeaturesGrid = () => {
           Refer-a-friend rewards
         </h3>
         <div className='divider'></div>
-        <p className='col-span-12 row-span-2 font-light'>
+        <p className='col-span-12 row-span-2'>
           We know it&apos;s not easy to train by yourself. Bring in a friend
           with you to class and receive a free private session with our coaches.
         </p>
@@ -51,7 +51,7 @@ const FeaturesGrid = () => {
           Private Training
         </h3>
         <div className='divider'></div>
-        <p className='col-span-12 row-span-2 font-light'>
+        <p className='col-span-12 row-span-2'>
           Whether your goals are to compete, get fit, or learn martial arts, our
           coaches are ready to help you reach them.
         </p>
