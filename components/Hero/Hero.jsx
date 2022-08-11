@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { GiKatana } from 'react-icons/gi';
 import heroImage from '../../public/assets/luis-vidal-FodEsaNZs48-unsplash.jpeg';
 import Pattern from '../Pattern/Pattern';
-const Hero = () => {
+const Hero = ({ aboutRef }) => {
   return (
     <section className='relative mb-16 grid h-main grid-cols-12'>
       <div className='pattern relative col-span-12 flex flex-col items-center justify-center bg-gray-800 p-8 md:col-span-6 md:items-start md:p-16'>
@@ -15,11 +15,17 @@ const Hero = () => {
           A methodical <GiKatana className='inline text-xl' /> student-first
           approach to martial arts
         </aside>
-        <Link href='/about' passHref={true}>
-          <button className='outlined-button border-theme mt-4'>
-            About Us
-          </button>
-        </Link>
+        <button
+          onClick={() => {
+            aboutRef.current.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start',
+            });
+          }}
+          className='outlined-button border-theme mt-4'
+        >
+          About Us
+        </button>
       </div>
       <figure className='absolute right-0 col-span-6 hidden h-full w-full items-center overflow-hidden object-cover md:flex'>
         <Image src={heroImage} alt='gym' />

@@ -6,7 +6,7 @@ import { CgShapeRhombus } from 'react-icons/cg';
 const CoachCard = ({ coach, index }) => {
   const even = index % 2 == 0;
   return (
-    <li className='pattern border-theme col-span-12 grid h-full grid-cols-12 gap-4 bg-gray-800 p-8 md:grid-rows-6 lg:col-span-12'>
+    <li className='pattern border-theme col-span-12 grid h-full grid-cols-12 grid-rows-6 gap-4 bg-gray-800 p-8 lg:col-span-12'>
       <article className='border-theme col-span-12 row-span-1 flex items-center justify-between border-b-2 border-primary-700 bg-gray-800'>
         <section className='p-4'>
           <h2 className='text-2xl font-bold uppercase tracking-wider'>
@@ -29,6 +29,7 @@ const CoachCard = ({ coach, index }) => {
         } col-span-12 row-span-3 flex`}
       >
         <Image
+          height='100%'
           src={portrait}
           className='border-theme h-fit object-cover'
           alt=''

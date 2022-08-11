@@ -11,7 +11,7 @@ const Header = () => {
   const toggleNav = () => setNavOpen(!navOpen);
   const router = useRouter();
   return (
-    <header className='fixed top-0 z-30 flex h-header w-full items-center justify-between bg-gray-900 px-8 shadow-md 2xl:mx-36'>
+    <header className='fixed top-0 z-30 flex h-header w-full items-center justify-between bg-gray-900 px-8 shadow-md'>
       <Link href='/' passHref={true}>
         <div
           onClick={() => setNavOpen(false)}
@@ -39,22 +39,24 @@ const Header = () => {
               onClick={() => setNavOpen(false)}
               className={`mx-2 my-4 cursor-pointer px-2 tracking-wider transition hover:brightness-110 ${
                 router.pathname === '/instructors' && 'current-page'
-              }`}
+              } transition-all`}
             >
               Instructors
             </li>
           </Link>
+          <Link href='/programs' passHref={true}>
+            <li
+              onClick={() => setNavOpen(false)}
+              className={`mx-2 my-4 cursor-pointer px-2 tracking-wider transition hover:brightness-110 ${
+                router.pathname === '/programs' && 'current-page'
+              } transition-all`}
+            >
+              Programs
+            </li>
+          </Link>
           <li
             onClick={() => setNavOpen(false)}
-            className={
-              'mx-2 my-4 cursor-pointer px-2 tracking-wider transition hover:brightness-110'
-            }
-          >
-            Programs
-          </li>
-          <li
-            onClick={() => setNavOpen(false)}
-            className='mx-2 my-4 flex cursor-pointer items-center px-2 tracking-wider transition hover:brightness-110'
+            className='border-theme mx-2 my-4 flex cursor-pointer items-center bg-gray-700 px-4 py-2 tracking-wider transition hover:brightness-110'
           >
             <span>Class Schedule</span>
             <FaCalendarAlt className='text-xltext-emerald-400 ml-2 text-emerald-400' />

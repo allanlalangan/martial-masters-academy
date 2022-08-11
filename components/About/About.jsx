@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import aboutImage from '../../public/assets/marvin-cors-FBnlCT-cGUQ-unsplash.jpeg';
 
 const About = () => {
@@ -34,9 +35,11 @@ const About = () => {
         people in the gym and outside the gym.
       </article>
       <div className='col-span-12 flex items-start justify-center md:col-span-6 md:row-start-5 md:row-end-7'>
-        <button className='outlined-button border-theme h-fit bg-gray-900'>
-          Explore our programs
-        </button>
+        <Link href='/programs'>
+          <button className='outlined-button border-theme h-fit bg-gray-900'>
+            Explore our programs
+          </button>
+        </Link>
       </div>
     </section>
   );

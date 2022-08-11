@@ -5,7 +5,7 @@ import img from '../../public/assets/jyotirmoy-gupta-ryOMte-FerE-unsplash.jpg';
 const KidsProgram = () => {
   return (
     <section className='grid-rows-8 grid grid-cols-12 gap-8 p-8 md:px-16 2xl:mx-36'>
-      <figure className='relative col-span-12 row-span-2 ml-8 mb-8 flex md:col-span-6 md:row-start-1 md:row-end-7 2xl:col-span-8'>
+      <figure className='relative col-span-12 row-span-2 ml-8 mb-8 flex md:col-span-6 md:row-start-1 md:row-end-7'>
         <div className='image-overlay'></div>
         <Image className='z-[-2] object-cover' src={img} alt='' />
         <figcaption className='z-1 absolute bottom-[-3rem] right-[3rem] flex flex-col p-4 font-["Mirza"] text-2xl uppercase tracking-[1.5px]'>
@@ -15,7 +15,7 @@ const KidsProgram = () => {
         </figcaption>
         <div className='border-theme absolute right-8 bottom-8 z-[-1] h-full w-full border-2 border-primary-700'></div>
       </figure>
-      <article className='col-span-12 row-span-2 flex flex-col items-start justify-start md:col-start-7 md:col-end-13 md:row-span-3 2xl:col-span-4'>
+      <article className='col-span-12 row-span-2 flex flex-col items-start justify-start md:col-start-7 md:col-end-13 md:row-span-3'>
         <h3 className='mb-4 text-lg font-semibold'>
           Give your kids the tools to feel empowered, present and confident
         </h3>

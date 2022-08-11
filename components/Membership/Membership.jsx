@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { CgShapeRhombus } from 'react-icons/cg';
 
 const Membership = () => {
@@ -46,9 +47,11 @@ const Membership = () => {
         </h3>
         <div className='flex w-full flex-col items-center'>
           <span className='p-2 underline'>Learn more</span>
-          <button className='filled-button border-theme w-full sm:w-1/2 lg:w-full'>
-            Contact a Coach
-          </button>
+          <Link href='/instructors' passHref={true}>
+            <button className='filled-button border-theme w-full sm:w-1/2 lg:w-full'>
+              Contact a Coach
+            </button>
+          </Link>
           <button className='filled-button border-theme w-full sm:w-1/2 lg:w-full'>
             Visit Us
           </button>
