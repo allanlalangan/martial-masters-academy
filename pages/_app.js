@@ -6,7 +6,7 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Header />
-      <main>
+      <main className='mt-[13vh]'>
         <Component {...pageProps} />
       </main>
       <Footer />
