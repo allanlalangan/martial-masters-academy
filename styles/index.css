@@ -21,10 +21,10 @@
 
 @layer components {
   .outlined-button {
-    @apply mx-auto border border-primary-700 bg-inherit px-12 py-4 text-[.75rem] font-semibold uppercase tracking-[2px] shadow-md transition hover:shadow-lg hover:brightness-110 2xl:border-2 2xl:text-lg;
+    @apply mx-auto border border-primary-700 bg-inherit px-12 py-4 text-xs font-semibold uppercase tracking-[2px] shadow-md transition hover:shadow-lg hover:brightness-110 2xl:border-2;
   }
   .filled-button {
-    @apply my-2 mx-auto border-primary-700 bg-gray-800 px-8 py-4 text-[.75rem] font-semibold uppercase tracking-wider transition hover:brightness-110 2xl:text-lg;
+    @apply my-2 mx-auto bg-gray-800 px-8 py-4 text-xs font-semibold uppercase tracking-wider transition hover:brightness-110;
   }
   .border-theme {
     /* @apply rounded-tl-sm rounded-br-sm rounded-tr-md rounded-bl-md; */
@@ -111,10 +111,10 @@
   }
 
   .section-left {
-    @apply md:col-start-1 md:col-end-7 md:row-start-2 md:row-end-7;
+    @apply lg:col-start-1 lg:col-end-7 lg:row-start-2 lg:row-end-7;
   }
   .section-right {
-    @apply md:col-start-7 md:col-end-13 md:row-start-2 md:row-end-7;
+    @apply lg:col-start-7 lg:col-end-13 lg:row-start-2 lg:row-end-7;
   }
 
   .transition-nav {
