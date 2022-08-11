@@ -24,7 +24,7 @@
     @apply mx-auto border border-primary-700 bg-inherit px-12 py-4 text-[.75rem] font-semibold uppercase tracking-[2px] shadow-md transition hover:shadow-lg hover:brightness-110 2xl:border-2 2xl:text-lg;
   }
   .filled-button {
-    @apply my-2 mx-auto border-primary-700 bg-gray-800 px-8 py-4 text-[.8rem] font-medium tracking-wider transition hover:brightness-110 2xl:text-lg;
+    @apply my-2 mx-auto border-primary-700 bg-gray-800 px-8 py-4 text-[.75rem] font-semibold uppercase tracking-wider transition hover:brightness-110 2xl:text-lg;
   }
   .border-theme {
     /* @apply rounded-tl-sm rounded-br-sm rounded-tr-md rounded-bl-md; */
@@ -50,7 +50,7 @@
   }
 
   .current-page {
-    @apply border-b border-primary-700;
+    @apply border-b-2 border-primary-700;
   }
 
   .pattern {
@@ -108,5 +108,16 @@
     content: '';
     position: absolute;
     z-index: 5;
+  }
+
+  .section-left {
+    @apply md:col-start-1 md:col-end-7 md:row-start-2 md:row-end-7;
+  }
+  .section-right {
+    @apply md:col-start-7 md:col-end-13 md:row-start-2 md:row-end-7;
+  }
+
+  .transition-nav {
+    transition: left 0.45s ease, opacity 0.5s ease;
   }
 }
