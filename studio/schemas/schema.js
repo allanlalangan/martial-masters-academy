@@ -23,8 +23,8 @@ export default createSchema({
           type: 'string',
         },
         {
-          title: 'Title',
-          name: 'title',
+          title: 'Job Title',
+          name: 'jobTitle',
           type: 'string',
         },
         {
@@ -36,6 +36,18 @@ export default createSchema({
           title: 'Image',
           name: 'image',
           type: 'image',
+        },
+        {
+          title: 'Instagram',
+          name: 'instagram',
+          description: 'Instagram profile',
+          type: 'url',
+        },
+        {
+          title: 'Facebook',
+          name: 'facebook',
+          description: 'Facebook profile',
+          type: 'url',
         },
       ],
     },
