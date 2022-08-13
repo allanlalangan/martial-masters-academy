@@ -53,7 +53,7 @@ const CoachCard = ({ coach, index }) => {
       <p
         className={`border-theme ${
           even ? 'section-right' : 'section-left'
-        } col-span-12 row-span-2 flex items-start border-t-2 border-primary-700 bg-gray-800 p-4 pt-4 md:border-none`}
+        } col-span-12 row-span-2 flex items-start border-b-2 border-primary-700 bg-gray-800 p-4 pt-4`}
       >
         {coach.bio}
       </p>

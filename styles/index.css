@@ -111,10 +111,10 @@
   }
 
   .section-left {
-    @apply lg:col-start-1 lg:col-end-7 lg:row-start-2 lg:row-end-7;
+    @apply md:col-start-1 md:col-end-7 md:row-start-2 md:row-end-7;
   }
   .section-right {
-    @apply lg:col-start-7 lg:col-end-13 lg:row-start-2 lg:row-end-7;
+    @apply md:col-start-7 md:col-end-13 md:row-start-2 md:row-end-7;
   }
 
   .transition-nav {
