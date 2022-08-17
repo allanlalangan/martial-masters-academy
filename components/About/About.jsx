@@ -4,8 +4,9 @@ import aboutImage from '../../public/assets/marvin-cors-FBnlCT-cGUQ-unsplash.jpe
 
 const About = () => {
   return (
-    <section className='grid grid-cols-12 gap-8 p-8 md:grid-rows-6 md:px-16 lg:h-screen 2xl:mx-36'>
-      <figure className='align-center relative col-span-12 mr-8 mb-8 flex md:col-start-7 md:col-end-13 md:row-start-1 md:row-end-7'>
+    <section className='grid grid-cols-12 gap-8 p-4 sm:p-8 md:grid-rows-6 md:px-16 lg:h-screen 2xl:mx-36'>
+      <figure className='relative col-span-12 mb-8 flex sm:mr-8 md:col-start-7 md:col-end-13 md:row-start-1 md:row-end-7'>
+        <div className='border-theme absolute z-[0] h-full w-full border-2 border-primary-700 sm:left-8 sm:bottom-8'></div>
         <div className='image-overlay'></div>
         <Image
           className='border-theme z-[-2] object-cover'
@@ -17,7 +18,6 @@ const About = () => {
           <span className='highlight pl-4'>Be last,</span>
           <span className='highlight pl-8'>Be gone.</span>
         </figcaption>
-        <div className='border-theme absolute left-8 bottom-8 z-[-1] h-full w-full border-2 border-primary-700'></div>
       </figure>
       <article className='md-justify-start col-span-12 flex flex-col items-start justify-start md:col-start-1 md:col-end-7 md:row-start-1 md:row-end-5'>
         We train athletes and individuals who are looking to achieve their
