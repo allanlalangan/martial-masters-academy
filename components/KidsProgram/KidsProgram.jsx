@@ -36,21 +36,29 @@ const KidsProgram = () => {
       </aside>
       <ul className='col-span-12 row-span-2 grid grid-cols-12 gap-2 md:col-start-7 md:col-end-13 '>
         <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
-          <CgShapeRhombus className='text-lg text-emerald-400' />
+          <span className='w-[20px]'>
+            <CgShapeRhombus className='text-lg text-emerald-400' />
+          </span>
           <span className='ml-2'>Learn proper striking technique</span>
         </li>
         <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
-          <CgShapeRhombus className='text-lg text-emerald-400' />
+          <span className='w-[20px]'>
+            <CgShapeRhombus className='text-lg text-emerald-400' />
+          </span>
           <span className='ml-2'>
             Learn defensive grappling and position control
           </span>
         </li>
         <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
-          <CgShapeRhombus className='text-lg text-emerald-400' />
+          <span className='w-[20px]'>
+            <CgShapeRhombus className='text-lg text-emerald-400' />
+          </span>
           <span className='ml-2'>Push and encourage each other</span>
         </li>
         <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
-          <CgShapeRhombus className='text-lg text-emerald-400' />
+          <span className='w-[20px]'>
+            <CgShapeRhombus className='text-lg text-emerald-400' />
+          </span>
           <span className='ml-2'>Move around and have fun!</span>
         </li>
       </ul>

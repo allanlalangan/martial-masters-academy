@@ -19,20 +19,28 @@ const Membership = () => {
         </aside>
         <ul className='grid grid-cols-12 gap-2'>
           <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
-            <CgShapeRhombus className='text-lg text-emerald-400' />
+            <span className='w-[20px]'>
+              <CgShapeRhombus className='text-lg text-emerald-400' />
+            </span>
             <span className='pl-2'>Unlimited classes</span>
           </li>
           <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
-            <CgShapeRhombus className='text-lg text-emerald-400' />
+            <span className='w-[20px]'>
+              <CgShapeRhombus className='text-lg text-emerald-400' />
+            </span>
             <span className='pl-2'>Open gym access</span>
           </li>
           <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
-            <CgShapeRhombus className='text-lg text-emerald-400' />
+            <span className='w-[20px]'>
+              <CgShapeRhombus className='text-lg text-emerald-400' />
+            </span>
             <span className='pl-2'>Advanced and invitation only classes</span>
           </li>
 
           <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
-            <CgShapeRhombus className='text-lg text-emerald-400' />
+            <span className='w-[20px]'>
+              <CgShapeRhombus className='text-lg text-emerald-400' />
+            </span>
             <span className='pl-2'>Competition coaching</span>
           </li>
         </ul>
