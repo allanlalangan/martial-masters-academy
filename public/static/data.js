@@ -4,6 +4,10 @@ import advancedBoxingImg from '../assets/metin-ozer-ofLmXDQKPTA-unsplash.jpg';
 import sparringImg from '../assets/jonathan-tomas-misTB4pmevc-unsplash.jpg';
 import advancedMuayThaiImg from '../assets/logan-weaver-lgnwvr-_X46DTSSRbM-unsplash.jpg';
 import bootcampImg from '../assets/mark-adriane-FH6JcaCrYJ0-unsplash.jpg';
+import eevie from '../assets/xuan-nguyen-jAke8NofTtE-unsplash.jpg';
+import kalani from '../assets/mark-adriane-FH6JcaCrYJ0-unsplash.jpg';
+import becca from '../assets/jonathan-borba-R0y_bEUjiOM-unsplash.jpg';
+import fernando from '../assets/wade-austin-ellis-sf0qE4XehbI-unsplash.jpg';
 
 export const brand = {
   name: 'Martial Masters Academy',
@@ -16,21 +20,25 @@ export const coaches = [
     name: "Kaiwi 'Eevie' Amina",
     title: 'Head Trainer',
     bio: 'Founder and Head Trainer Eevie has been studying and training Martial Arts for over a decade. Both an avid teacher and student of the game, his philosophy focuses on details and nuances of the game. Classes teach fundamentals while allowing students to flow and have fun. Eevie has trained a stable of fighters in both amateur and professional competition.',
+    photo: eevie,
   },
   {
     name: 'Kalani Amina',
     title: 'Head Trainer',
     bio: "Kalani's passion for Martial Arts training came when he was faced with a medical emergency. Having been diagnosed diabetic at the age of 16, doctors told him that he would not live past his 20th birthday. He still stands today, losing over 100 pounds. Through Muay Thai and Boxing, he is eager to help others to promote a healthy lifestyle and achieve their goals.",
+    photo: kalani,
   },
   {
     name: 'Rebecca Spaulding',
     title: 'Personal Trainer',
     bio: 'Rebecca is our fitness instructor from Chapel Hill, North Carolina! She came to Oregon to study health sciences and it inspired her to become a personal trainer and health and fitness instructor. Alongside fitness, Rebecca has spent the last 6 years studying and training boxing. Her specialty is creating a high intensity workout that will get you sweating from start to finish.',
+    photo: becca,
   },
   {
     name: 'Fernando Alvarado',
     title: 'Assistant Coach',
     bio: 'Fernando has been competing in professional mixed martial arts for over 5 years. Fernando is also an entertainer and brings the same energy on the mic. Bars in the studio, armbars in the cage. A proud father and husband, Fernando assists coach Kalani in our youth program.',
+    photo: fernando,
   },
 ];
 

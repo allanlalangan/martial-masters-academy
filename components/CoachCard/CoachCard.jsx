@@ -30,7 +30,7 @@ const CoachCard = ({ coach, index }) => {
       >
         <Image
           height='100%'
-          src={portrait}
+          src={coach.photo}
           className='border-theme h-fit object-cover'
           alt=''
         />
