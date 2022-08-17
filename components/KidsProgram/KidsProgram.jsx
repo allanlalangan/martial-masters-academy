@@ -8,7 +8,7 @@ const KidsProgram = () => {
       <figure className='relative col-span-12 row-span-2 mb-8 flex sm:ml-8 md:col-span-6 md:row-start-1 md:row-end-7'>
         <div className='border-theme absolute z-[0] h-full w-full border-2 border-primary-700 sm:right-8 sm:bottom-8'></div>
         <div className='image-overlay'></div>
-        <Image className='z-[-2] object-cover' src={img} alt='' />
+        <Image className='border-theme z-[-2] object-cover' src={img} alt='' />
         <figcaption className='z-1 absolute bottom-[-3rem] right-[3rem] flex flex-col p-4 font-["Mirza"] text-2xl uppercase tracking-[1.5px]'>
           <span className='highlight'>empower</span>
           <span className='highlight pl-4'>your</span>
