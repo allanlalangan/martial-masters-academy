@@ -4,8 +4,8 @@ import img from '../../public/assets/jyotirmoy-gupta-ryOMte-FerE-unsplash.jpg';
 
 const KidsProgram = () => {
   return (
-    <section className='grid-rows-8 grid grid-cols-12 gap-8 p-4 sm:p-8 md:px-16 2xl:mx-36'>
-      <figure className='relative col-span-12 row-span-2 mb-8 flex sm:ml-8 md:col-span-6 md:row-start-1 md:row-end-7'>
+    <section className='grid-rows-8 grid grid-cols-12 gap-8 sm:p-8 md:px-16 2xl:mx-36'>
+      <figure className='relative col-span-12 row-span-2 mx-8 mb-8 flex sm:mx-0 sm:ml-8 md:col-span-6 md:row-start-1 md:row-end-7'>
         <div className='border-theme absolute z-[0] h-full w-full border-2 border-primary-700 sm:right-8 sm:bottom-8'></div>
         <div className='image-overlay'></div>
         <Image className='border-theme z-[-2] object-cover' src={img} alt='' />
@@ -15,7 +15,7 @@ const KidsProgram = () => {
           <span className='highlight pl-8'>children</span>
         </figcaption>
       </figure>
-      <article className='col-span-12 row-span-2 flex flex-col items-start justify-start md:col-start-7 md:col-end-13 md:row-span-3'>
+      <article className='col-span-12 row-span-2 mx-8 flex flex-col items-start justify-start sm:mx-0 md:col-start-7 md:col-end-13 md:row-span-3'>
         <h3 className='mb-4 text-lg font-semibold'>
           Give your kids the tools to feel empowered, present and confident
         </h3>
@@ -28,13 +28,13 @@ const KidsProgram = () => {
           release energy and have fun!
         </p>
       </article>
-      <aside className='col-span-12 flex items-center md:col-start-7 md:col-end-13 md:row-start-4 md:row-end-5'>
+      <aside className='col-span-12 mx-8 flex items-center sm:mx-0 md:col-start-7 md:col-end-13 md:row-start-4 md:row-end-5'>
         <h3 className='w-full text-[.80rem] font-semibold uppercase tracking-[3.5px] sm:w-1/2 md:w-[100%] lg:w-[75%]'>
           Students will..
         </h3>
         <div className='divider'></div>
       </aside>
-      <ul className='col-span-12 row-span-2 grid grid-cols-12 gap-2 md:col-start-7 md:col-end-13 '>
+      <ul className='col-span-12 row-span-2 mx-8 grid grid-cols-12 gap-2 sm:mx-0 md:col-start-7 md:col-end-13 '>
         <li className='col-span-12 flex w-full items-center justify-start lg:col-span-6'>
           <span className='w-[20px]'>
             <CgShapeRhombus className='text-lg text-emerald-400' />
