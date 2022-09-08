@@ -27,7 +27,7 @@ const Hero = ({ aboutRef }) => {
           About Us
         </button>
       </div>
-      <figure className='absolute right-0 col-span-6 hidden h-full w-full items-center overflow-hidden object-cover md:flex'>
+      <figure className='absolute right-0 col-span-6 hidden h-full w-full items-center justify-end overflow-hidden object-cover md:flex'>
         <Image src={heroImage} alt='gym' />
       </figure>
     </section>

@@ -6,7 +6,7 @@ import { CgShapeRhombus } from 'react-icons/cg';
 const CoachCard = ({ coach, index }) => {
   const even = index % 2 == 0;
   return (
-    <li className='pattern border-theme col-span-12 grid h-full grid-cols-12 grid-rows-6 gap-4 bg-gray-800 p-4 sm:p-8 lg:col-span-12'>
+    <li className='pattern border-theme col-span-12 grid h-full grid-cols-12 grid-rows-6 gap-4 bg-gray-800 p-4 sm:p-8 md:grid-rows-4 lg:col-span-12'>
       <article className='border-theme col-span-12 row-span-1 flex items-center justify-between border-b-2 border-primary-700 bg-gray-800'>
         <section className='p-4'>
           <h2 className='text-2xl font-bold uppercase tracking-wider'>
@@ -25,34 +25,19 @@ const CoachCard = ({ coach, index }) => {
       </article>
       <figure
         className={`border-theme ${
-          even ? 'section-left' : 'section-right'
-        } col-span-12 row-span-3 flex`}
+          even ? 'coach-card-left' : 'coach-card-right'
+        } col-span-12 row-span-3 flex md:row-span-3`}
       >
         <Image
           height='100%'
           src={coach.photo}
-          className='border-theme h-fit object-cover'
+          className='border-theme object-cover'
           alt=''
         />
       </figure>
-      {/* <ul className='col-span-12 row-start-3 row-end-4 flex flex-col items-start justify-evenly'>
-        <li className='mr-4 flex items-center'>
-          <CgShapeRhombus className='text-lg text-emerald-400' />
-          <span className='pl-2'>Boxing</span>
-        </li>
-        <li className='mr-4 flex items-center'>
-          <CgShapeRhombus className='text-lg text-emerald-400' />
-          <span className='pl-2'>Muay Thai</span>
-        </li>
-        <li className='mr-4 flex items-center'>
-          <CgShapeRhombus className='text-lg text-emerald-400' />
-          <span className='pl-2'>Boot Camp</span>
-        </li>
-      </ul> */}
-      {/* <div className='divider col-span-12'></div> */}
       <p
         className={`border-theme ${
-          even ? 'section-right' : 'section-left'
+          even ? 'coach-card-right' : 'coach-card-left'
         } col-span-12 row-span-2 flex items-start border-b-2 border-primary-700 bg-gray-800 p-4 pt-4`}
       >
         {coach.bio}

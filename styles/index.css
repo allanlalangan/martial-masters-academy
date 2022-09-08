@@ -111,10 +111,16 @@
   }
 
   .section-left {
-    @apply md:col-start-1 md:col-end-7 md:row-start-2 md:row-end-7;
+    @apply md:col-start-1 md:col-end-7 md:row-start-2 md:row-end-7 xl:col-start-1 xl:col-end-7 xl:row-start-2 xl:row-end-7;
   }
   .section-right {
-    @apply md:col-start-7 md:col-end-13 md:row-start-2 md:row-end-7;
+    @apply md:col-start-7 md:col-end-13 md:row-start-2 md:row-end-7 xl:col-start-7 xl:col-end-13 xl:row-start-2 xl:row-end-7;
+  }
+  .coach-card-left {
+    @apply md:col-start-1 md:col-end-7 md:row-start-2 md:row-end-5;
+  }
+  .coach-card-right {
+    @apply md:col-start-7 md:col-end-13 md:row-start-2 md:row-end-5;
   }
 
   .transition-nav {

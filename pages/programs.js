@@ -9,7 +9,7 @@ const Programs__page = () => {
       <h2 className='mx-8 mb-12 border-b-[1.5px] border-gray-700 p-12 pb-8 text-center text-3xl font-bold uppercase tracking-widest lg:mx-16'>
         Our Programs
       </h2>
-      <ul className='mb-12 grid grid-cols-12 gap-8 sm:mx-16 lg:mx-32 xl:mx-16'>
+      <ul className='mb-12 grid grid-cols-12 gap-8 sm:mx-16 lg:mx-16'>
         {programs.map((program, i) => (
           <ProgramCard key={i} index={i} program={program} />
         ))}
