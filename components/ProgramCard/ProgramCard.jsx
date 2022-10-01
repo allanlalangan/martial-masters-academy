@@ -6,7 +6,7 @@ import { CgShapeRhombus } from 'react-icons/cg';
 const ProgramCard = ({ program, index }) => {
   const even = index % 2 == 0;
   return (
-    <li className='pattern border-theme col-span-12 grid grid-cols-12 grid-rows-6 gap-4 bg-gray-800 p-4 sm:p-8 md:col-span-12 lg:col-span-6 lg:flex lg:flex-col xl:grid'>
+    <li className='pattern border-theme col-span-12 mb-8 grid grid-cols-12 grid-rows-6 gap-4 bg-gray-800 p-4 sm:p-8 md:col-span-12 lg:col-span-6 lg:mb-0 lg:flex lg:flex-col xl:grid'>
       <article className='border-theme col-span-12 row-span-1 flex items-center justify-between border-b-2 border-primary-700 bg-gray-800'>
         <h2 className='text-2xl font-bold uppercase tracking-wider'>
           {program.name}
