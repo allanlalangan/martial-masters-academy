@@ -31,9 +31,7 @@ const Footer = () => {
         </ul>
       </section>
       <article className='col-start-7 col-end-13 flex flex-col items-start justify-center font-["Mirza"] text-xl uppercase tracking-[.275rem]'>
-        <aside>
-          martial masters academy <br className='sm:hidden' />© 2022
-        </aside>
+        <aside>martial masters academy 2022</aside>
       </article>
     </footer>
   );
